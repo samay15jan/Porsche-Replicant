@@ -1,0 +1,15 @@
+.Header_Container {
+    @apply flex justify-center text-white bg-black bg-opacity-30
+}
+.Header_Menu {
+    @apply ml-5 text-xl
+}
+.Header_Logo {
+    @apply w-10 m-10 
+}
+.Header_Search {
+    @apply text-xl
+}
+.Header_Account {
+    @apply text-xl
+}

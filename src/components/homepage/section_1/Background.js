@@ -29,21 +29,21 @@ const Background = () => {
   return (
     <div>
       {showVideo ? (
-        <ReactHlsPlayer
-          playerRef={playerRef}
-          src={streamUrl}
-          loop={true}
-          autoPlay={true}
-          muted={true}
-          width="100%"
-          height="100%"
-        />
-      ) : (<img src={Background_image} alt="Porsche" />)
-    }
-
-        <Button variant="outlined" onClick={toggleVideo}>
+        <div>
+          <ReactHlsPlayer
+            playerRef={playerRef}
+            src={streamUrl}
+            loop={true}
+            autoPlay={true}
+            muted={true}
+            width="100%"
+            height="100%"
+          />
+          <Button variant="outlined" onClick={toggleVideo}>
           {playing ? <FaPlay/> : <FaPause/>}
-        </Button>
+          </Button>
+        </div>
+      ) : (<img src={Background_image} alt="Porsche" />)}
     </div>
   )
 }

@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css';
-import Background from './components/landing_page/section 1/Background';
+import Homepage from './pages/homepage/Homepage'
 
 export default function App() {
   return (
     <div>
-      <Background/>
+      <Homepage />
     </div>
   );
 }
