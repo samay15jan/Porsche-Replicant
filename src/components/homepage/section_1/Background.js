@@ -1,8 +1,9 @@
 import React, { useState, useEffect }  from 'react'
 import ReactHlsPlayer from 'react-hls-player';
-import { Button } from '@mui/material';
 import { FaPause, FaPlay} from 'react-icons/fa'
 import Background_image from '../../../resources/homepage/01_section/background_image.jpg'
+import '../../../pages/homepage/Homepage.css'
+import ArrowDownwardOutlinedIcon from '@mui/icons-material/ArrowDownwardOutlined';
 
 const Background = () => {
   const [showVideo, setShowVideo] = useState(false)
@@ -22,28 +23,39 @@ const Background = () => {
   useEffect(() => {
     const timer = setTimeout(() =>{
       setShowVideo(true)
-    }, 5000);
+    }, 4000);
     return () => clearTimeout(timer);
   },[])
   
   return (
     <div>
       {showVideo ? (
-        <div>
+        <div className='Background_VideoContainer'>
           <ReactHlsPlayer
+            className='backgroundHlsPlayer'
             playerRef={playerRef}
             src={streamUrl}
             loop={true}
             autoPlay={true}
             muted={true}
-            width="100%"
-            height="100%"
+            preload='auto'
           />
-          <Button variant="outlined" onClick={toggleVideo}>
+          <div className='backgroundtext'>Fully-jaw-dropping-electric</div>
+          <button className="backgroundToggle2">The Taycan. Starting at $90,900</button>
+          <button className='backgroundToggle1' onClick={toggleVideo}>
           {playing ? <FaPlay/> : <FaPause/>}
-          </Button>
+          </button>
+          <div className='footerArrow'><ArrowDownwardOutlinedIcon/></div>
+          <div className='footerBorder'></div>
         </div>
-      ) : (<img src={Background_image} alt="Porsche" />)}
+      ) : 
+        (<div className='Background_ImageContainer'><img src={Background_image} className='backgroundImage' alt="Porsche" />
+          <div className='backgroundtext'>Fully-jaw-dropping-electric.</div>
+          <button className='backgroundToggle2'>The Taycan. Starting at $90,900</button>
+          <div className='footerArrow'><ArrowDownwardOutlinedIcon/></div>
+          <div className='footerBorder'></div> 
+       </div>
+      )}
     </div>
   )
 }

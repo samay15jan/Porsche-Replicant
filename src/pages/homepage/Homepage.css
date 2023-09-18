@@ -1,15 +1,48 @@
 .Header_Container {
-    @apply flex justify-center text-white bg-black bg-opacity-30
+    @apply flex justify-between absolute items-center w-full text-white bg-gradient-to-b from-zinc-900 to-transparent ;
+    height: 100px; 
+    padding: 0 20px; 
+    z-index: 100;
 }
-.Header_Menu {
-    @apply ml-5 text-xl
-}
+
 .Header_Logo {
-    @apply w-10 m-10 
+    @apply w-48 h-10 my-5 ;
+    margin: 0 auto;
 }
-.Header_Search {
-    @apply text-xl
+
+.Header_Icons {
+    @apply text-white
 }
-.Header_Account {
-    @apply text-xl
+
+.Background_VideoContainer {
+    @apply w-screen h-screen overflow-hidden relative
+}
+.backgroundHlsPlayer {
+    @apply w-screen
+}
+.backgroundToggle1 {
+    @apply mr-16 mb-8 absolute right-0 bottom-0 text-white hover:bg-zinc-800 hover:border-zinc-500 z-20 p-4 rounded border-2;
+}
+
+.Background_ImageContainer {
+    @apply w-screen h-screen overflow-y-hidden relative;
+    transition: opacity 0.5s ease-in-out;
+}
+.backgroundImage {
+    @apply w-screen ;
+}
+.backgroundToggle2 {
+    @apply ml-32  mb-20 absolute left-0 bottom-0 text-white z-20 p-4  hover:bg-zinc-800 hover:border-zinc-500 rounded border-2;
+}
+.backgroundtext {
+    @apply absolute text-8xl text-white ml-32 mb-48 left-0 bottom-0 z-10 w-1/2
+}
+.footerArrow {
+    @apply animate-bounce flex justify-center w-screen absolute bottom-0 mb-10 text-white
+}
+.footerBorder {
+    @apply absolute bottom-0 w-full text-white bg-gradient-to-t from-zinc-900 to-transparent ;
+    height: 140px; 
+    padding: 0 20px; 
+    z-index: 10;
 }
