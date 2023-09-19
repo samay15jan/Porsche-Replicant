@@ -1,14 +1,14 @@
-import React, { useState, useEffect }  from 'react'
+import React, { useState, useEffect } from 'react'
 import ReactHlsPlayer from 'react-hls-player';
-import { FaPause, FaPlay} from 'react-icons/fa'
-import Background_image from '../../../resources/homepage/01_section/background_image.jpg'
+import { FaPause, FaPlay } from 'react-icons/fa'
 import '../../../pages/homepage/Homepage.css'
+import data from '../../../pages/homepage/data.json'
 import ArrowDownwardOutlinedIcon from '@mui/icons-material/ArrowDownwardOutlined';
 
 const Background = () => {
   const [showVideo, setShowVideo] = useState(false)
   const [playing, setPlaying] = useState(false)
-  const streamUrl = "https://videos.porsche.com/id/tv3sehnv/hls.m3u8"
+  const sectionData = data.homepage.section_1[0]
   const playerRef = React.useRef();
 
   const toggleVideo = () => {
@@ -21,12 +21,12 @@ const Background = () => {
   }
 
   useEffect(() => {
-    const timer = setTimeout(() =>{
+    const timer = setTimeout(() => {
       setShowVideo(true)
     }, 4000);
     return () => clearTimeout(timer);
-  },[])
-  
+  }, [])
+
   return (
     <div>
       {showVideo ? (
@@ -34,28 +34,28 @@ const Background = () => {
           <ReactHlsPlayer
             className='backgroundHlsPlayer'
             playerRef={playerRef}
-            src={streamUrl}
+            src={sectionData.streamUrl}
             loop={true}
             autoPlay={true}
             muted={true}
             preload='auto'
           />
-          <div className='backgroundtext'>Fully-jaw-dropping-electric</div>
-          <button className="backgroundToggle2">The Taycan. Starting at $90,900</button>
+          <div className='backgroundtext'>{sectionData.Text}</div>
+          <button className="backgroundToggle2">{sectionData.Button}</button>
           <button className='backgroundToggle1' onClick={toggleVideo}>
-          {playing ? <FaPlay/> : <FaPause/>}
+            {playing ? <FaPlay /> : <FaPause />}
           </button>
-          <div className='footerArrow'><ArrowDownwardOutlinedIcon/></div>
+          <div className='footerArrow'><ArrowDownwardOutlinedIcon /></div>
           <div className='footerBorder'></div>
         </div>
-      ) : 
-        (<div className='Background_ImageContainer'><img src={Background_image} className='backgroundImage' alt="Porsche" />
-          <div className='backgroundtext'>Fully-jaw-dropping-electric.</div>
-          <button className='backgroundToggle2'>The Taycan. Starting at $90,900</button>
-          <div className='footerArrow'><ArrowDownwardOutlinedIcon/></div>
-          <div className='footerBorder'></div> 
-       </div>
-      )}
+      ) :
+        (<div className='Background_ImageContainer'><img src={sectionData.Background_image} className='backgroundImage' alt="Porsche" />
+          <div className='backgroundtext'>{sectionData.Text}</div>
+          <button className='backgroundToggle2'>{sectionData.Button}</button>
+          <div className='footerArrow'><ArrowDownwardOutlinedIcon /></div>
+          <div className='footerBorder'></div>
+        </div>
+        )}
     </div>
   )
 }

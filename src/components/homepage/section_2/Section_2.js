@@ -1,15 +1,14 @@
 import React from 'react'
 import Cards from './Cards'
-import Image1 from '../../../resources/homepage/02_section/1.webp'
-import Image2 from '../../../resources/homepage/02_section/2.webp'
-import Image3 from '../../../resources/homepage/02_section/3.webp'
+import data from '../../../pages/homepage/data.json'
 
 const Section_2 = () => {
+  const sectionData = data.homepage.section_2[0];
   return (
     <div className='flex m-10 justify-center'>
-        <Cards src={Image1} text={"Rennsport is Back & You'r Invited."} />
-        <Cards src={Image2} text={"The new Cayenne E-Hybrid Coupé."} />
-        <Cards src={Image3} text={"The new 718 Spyder RS."} />
+      <Cards src={sectionData.Image1} text={sectionData.Text1} />
+      <Cards src={sectionData.Image2} text={sectionData.Text2} />
+      <Cards src={sectionData.Image3} text={sectionData.Text3} />
     </div>
   )
 }

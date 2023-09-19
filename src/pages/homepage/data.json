@@ -1,0 +1,57 @@
+{
+  "homepage": {
+    "section_1": [
+      {
+        "Background_image": "/resources/homepage/01_section/background_image.jpg",
+        "logo-small": "/resources/homepage/01_section/logo-small.png",
+        "streamUrl": "https://videos.porsche.com/id/tv3sehnv/hls.m3u8",
+        "Text": "Fully-jaw-dropping-electric",
+        "Button": "The Taycan. Starting at $90,900"
+      }
+    ],
+    "section_2": [
+      {
+        "Image1": "/resources/homepage/02_section/1.webp",
+        "Image2": "/resources/homepage/02_section/2.webp",
+        "Image3": "/resources/homepage/02_section/3.webp",
+        "Text1": "Rennsport is Back & You'r Invited.",
+        "Text2": "The new Cayenne E-Hybrid Coupé.",
+        "Text3": "The new 718 Spyder RS."
+      }
+    ],
+    "section_3": [
+      {
+        "Name1": "718",
+        "Name2": "911",
+        "Name3": "Taycan",
+        "Name4": "Panamera",
+        "Name5": "Macan",
+        "Name6": "Cayenne",
+        "Image1": "/resources/homepage/03_section/1.jpg",
+        "Image2": "/resources/homepage/03_section/2.jpg",
+        "Image3": "/resources/homepage/03_section/3.jpg",
+        "Image4": "/resources/homepage/03_section/4.jpg",
+        "Image5": "/resources/homepage/03_section/5.jpg",
+        "Image6": "/resources/homepage/03_section/6.jpg",
+        "Logo1": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/718.min.d92dc0fe91e67bd51120d91c5cd1eb2f.svg",
+        "Logo2": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/911.min.5c462658f9d472e90a139173414e8fdd.svg",
+        "Logo3": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/taycan.min.ba4e7c3cb86a78d626d4463b81be0f23.svg",
+        "Logo4": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.min.d35913b252657f7c5cfcae74cfd61b26.svg",
+        "Logo5": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/macan.min.e38fbf34ed4f00066620901babd99af0.svg",
+        "Logo6": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/cayenne.min.4026ba6b335cc98e10592f900cf731e1.svg",
+        "Text1": "The mid-engine sports car for two.",
+        "Text2": "The quintessential, rear-engine sports car.",
+        "Text3": "The pure expression of an electric sports car.",
+        "Text4": "The sports car with stylish design and everyday practicality.",
+        "Text5": "The sports car of compact SUVs.",
+        "Text6": "Impressive sports car performance, with up to five seats.",
+        "Price1": "From $ 68,300 *",
+        "Price2": "From $ 114,400 *",
+        "Price3": "From $ 90,900 *",
+        "Price4": "From $ 92,400 *",
+        "Price5": "From $ 60,900 *",
+        "Price6": "From $ 79,200 *"
+      }
+    ]
+  }
+}
