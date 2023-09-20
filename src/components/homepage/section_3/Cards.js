@@ -15,9 +15,9 @@ const Cards = ({ src_logo, src_bg, text, price, name }) => {
             onMouseLeave={handleMouseLeave}
         >
             <div className='relative overflow-hidden'>
+                <img className='absolute w-auto h-7 mt-10 ml-10' src={src_logo} alt="" />
                 <img className={`justify-center rounded-[30px] hover:p-3 transition-transform ${imgHovered ? 'transform scale-105' : ''}`} src={src_bg} alt='card' />
                 <div className='absolute rounded-3xl text-lg hover:p-2 px-4 bottom-0 bg-gradient-to-t h-56 text-white font-bold from-zinc-900 to-transparent w-full'>
-                    <img src="src_logo" alt="" />
                     <div className='font-bold px-4'>{text}</div>
                     <div className='mb-4 text-sm font-medium px-4'>{price}</div>
                     <div className='px-4'><Button name={name} /></div>

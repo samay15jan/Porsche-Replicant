@@ -42,15 +42,75 @@
         "Text1": "The mid-engine sports car for two.",
         "Text2": "The quintessential, rear-engine sports car.",
         "Text3": "The pure expression of an electric sports car.",
-        "Text4": "The sports car with stylish design and everyday practicality.",
+        "Text4": "The sports car with stylish design.",
         "Text5": "The sports car of compact SUVs.",
-        "Text6": "Impressive sports car performance, with up to five seats.",
+        "Text6": "Impressive five seater sports car.",
         "Price1": "From $ 68,300 *",
         "Price2": "From $ 114,400 *",
         "Price3": "From $ 90,900 *",
         "Price4": "From $ 92,400 *",
         "Price5": "From $ 60,900 *",
         "Price6": "From $ 79,200 *"
+      }
+    ],
+    "section_4": [
+      {
+        "Image1": "/resources/homepage/04_section/1.jpg"
+      },
+      {
+        "Image2": "/resources/homepage/04_section/2.jpg"
+      }
+    ],
+    "section_5": [
+      {
+        "productImage": "/resources/homepage/05_section/2.webp",
+        "productName": "Porsche x Garmin® Epix smartwatch",
+        "productDescription": "GPS multisport smartwatch with unique Porsche details.",
+        "productCategory": "Smartwatch"
+      },
+      {
+        "productImage": "/resources/homepage/05_section/3.webp",
+        "productName": "Porsche eBike Sport",
+        "productDescription": "Porsche maximum e-performance on two wheels.",
+        "productCategory": "eBike"
+      },
+      {
+        "productImage": "/resources/homepage/05_section/4.webp",
+        "productName": "Golf Cartbag – Sport",
+        "productDescription": "Spacious cart bag made of waterproof nylon with padded shoulder strap and lined inner pocket.",
+        "productCategory": "Cartbag"
+      },
+      {
+        "productImage": "/resources/homepage/05_section/5.webp",
+        "productName": "Wheel rim wall clock – Porsche Originals",
+        "productDescription": "Wall clock made from the original rim of a 911 in RS Spyder design.",
+        "productCategory": "Clock"
+      },
+      {
+        "productImage": "/resources/homepage/05_section/6.webp",
+        "productName": "RECARO x Porsche Gaming Chair Limited Edition",
+        "productDescription": "For comfortable seat performance - whether for gaming or in the home office.",
+        "productCategory": "Chair"
+      },
+      {
+        "productImage": "/resources/homepage/05_section/7.webp",
+        "productName": "PORSCHE | HEAD 7 Series Skis",
+        "productDescription": "70 mm racing skis from PORSCHE | HEAD",
+        "productCategory": "Skis"
+      }
+    ],
+    "section_6": [
+      {
+        "Text": "Travel & Experience",
+        "Image": "/resources/homepage/06_section/1.jpg"
+      },
+      {
+        "Text": "Porsche Approved",
+        "Image": "/resources/homepage/06_section/2.jpg"
+      },
+      {
+        "Text": "Motorsport Experience",
+        "Image": "/resources/homepage/06_section/3.jpg"
       }
     ]
   }
