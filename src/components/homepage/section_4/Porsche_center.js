@@ -1,7 +1,6 @@
 import React from 'react'
 import Button from './Button'
 
-
 const Porsche_center = ({ img }) => {
     return (
         <div>
@@ -16,7 +15,7 @@ const Porsche_center = ({ img }) => {
                     <div>
                         A Porsche Center, and your dream Porsche vehicle, may be closer than you think. Search our Porsche Center network for the location closest to you.
                     </div>
-                    <Button />
+                    <Button text={'Search now.'} />
                 </div>
                 <img className='w-[620px] rounded-r-xl' src={img} alt="service" />
             </div>

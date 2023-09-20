@@ -112,6 +112,11 @@
         "Text": "Motorsport Experience",
         "Image": "/resources/homepage/06_section/3.jpg"
       }
+    ],
+    "section_7": [
+      {
+        "usLogo": "/resources/homepage/07_section/us_logo.jpg"
+      }
     ]
   }
 }
