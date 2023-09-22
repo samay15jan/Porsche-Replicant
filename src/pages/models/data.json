@@ -1,0 +1,74 @@
+{
+    "models": [
+        {
+            "name": "718 Cayman GT4 RS",
+            "image": "/resources/Models/718/trims/1.webp",
+            "starting_price": "$ 160,700 *",
+            "new": false,
+            "model": "718"
+        },
+        {
+            "name": "718 Spyder RS",
+            "image": "/resources/Models/718/trims/2.webp",
+            "starting_price": "$ 160,700 *",
+            "new": true,
+            "model": "718"
+        },
+        {
+            "name": "911 Carrera S Cabriolet",
+            "image": "/resources/Models/911/trims/1.webp",
+            "starting_price": "$ 243,200 *",
+            "new": false,
+            "model": "911"
+        },
+        {
+            "name": "911 GT3 RS",
+            "image": "/resources/Models/911/trims/2.webp",
+            "starting_price": "$ 241,300 *",
+            "new": true,
+            "model": "911"
+        },
+        {
+            "name": "Cayenne S",
+            "image": "/resources/Models/911/trims/1.webp",
+            "starting_price": "$ 95,700 *",
+            "new": true,
+            "model": "Cayenne"
+        },
+        {
+            "name": "Cayenne Turbo GT",
+            "image": "/resources/Models/cayenne/trims/2.webp",
+            "starting_price": "$ 196,300 *",
+            "new": true,
+            "model": "Cayenne"
+        },
+        {
+            "name": "Macan S",
+            "image": "/resources/Models/macan/trims/1.webp",
+            "starting_price": "$ 72,300 *",
+            "new": false,
+            "model": "Macan"
+        },
+        {
+            "name": "Taycan GTS Sport Turismo",
+            "image": "/resources/Models/taycan/trims/1.webp",
+            "starting_price": "$ 141,200 *",
+            "new": false,
+            "model": "Taycan"
+        },
+        {
+            "name": "Taycan Turbo S",
+            "image": "/resources/Models/taycan/trims/2.webp",
+            "starting_price": "$ 194,900 *",
+            "new": true,
+            "model": "Taycan"
+        },
+        {
+            "name": "Panamera Turbo S E-Hybrid Sport Turismo",
+            "image": "/resources/Models/pananmera/trims/1.webp",
+            "starting_price": "$ 200,400 *",
+            "new": false,
+            "model": "Panamera"
+        }
+    ]
+}
