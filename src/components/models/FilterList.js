@@ -1,23 +1,38 @@
 import React from 'react'
 import FilterButton from './FilterButton'
 import Data from '../../pages/models/data.json'
+import tw from 'twin.macro'
+import styled from 'styled-components/macro'
+
+const Container = styled.div`${tw`font-bold text-xl ml-5`}`
+const Box = styled.div`${tw`ml-20`}`
 
 const FilterList = ({ onClick }) => {
-    const ModelsList = Data.ModelsList
-    const BodyDesign = Data.BodyDesign
-    const Transmission = Data.Transmission
-    const Seats = Data.Seats
-    const Drive = Data.Drive
-    const finalData = [ModelsList, BodyDesign, Transmission, Seats, Drive]
+    const objectData = {
+        ModelsList: "Models",
+        BodyDesign: "Body Design",
+        Transmission: "Transmission",
+        Seats: "Seats",
+        Drive: "Drive",
+        FuelType: "Fuel Type"
+    };
+
 
     return (
-        <div>
-            {finalData.map((option, index) => (
-                option.map((text, subindex) => (
-                    <FilterButton key={subindex} text={text} onClick={onClick} />
-                ))
+        <Box>
+            {Object.keys(objectData).map((option, index) => (
+                <div key={index}>
+                    <Container>{objectData[option]}</Container>
+                    {Data[option].map((text, subindex) => (
+                        <FilterButton
+                            key={subindex}
+                            text={text}
+                            onClick={onClick}
+                        />
+                    ))}
+                </div>
             ))}
-        </div>
+        </Box>
     )
 }
 

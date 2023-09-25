@@ -9,7 +9,12 @@ ${tw`flex`}
 `
 
 const Text = styled.div`
-${tw`text-4xl font-bold my-5 ml-20`}`
+${tw`text-4xl font-bold my-10 ml-32`}
+`
+
+const Line = styled.div`
+${tw`border border-gray-100 mx-5`}
+`
 
 const Main = () => {
     return (
@@ -17,7 +22,8 @@ const Main = () => {
             <hr />
             <Text>Model overview</Text>
             <Container>
-                <><FilterList /></>
+                <FilterList />
+                <Line />
                 <ModelsList />
             </Container>
         </>
