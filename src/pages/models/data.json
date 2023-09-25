@@ -5,88 +5,96 @@
             "image": "/resources/Models/718/trims/1.webp",
             "starting_price": "$ 160,700 *",
             "new": false,
-            "model": "718",
+            "model": "718 Models",
             "BodyDesign": "Coupe",
             "Transmission": "PDK (Automatic)",
             "Seats": "2",
-            "Drive": "Rear wheel drive"
+            "Drive": "Rear wheel drive",
+            "FuelType": "Gasoline"
         },
         {
             "name": "911 Carrera S Cabriolet",
             "image": "/resources/Models/911/trims/1.webp",
             "starting_price": "$ 243,200 *",
             "new": false,
-            "model": "911",
+            "model": "911 Models",
             "BodyDesign": "Cabriolet",
             "Transmission": "Manual",
             "Seats": "4 - 5",
-            "Drive": "Rear wheel drive"
+            "Drive": "Rear wheel drive",
+            "FuelType": "Gasoline"
         },
         {
             "name": "911 GT3 RS",
             "image": "/resources/Models/911/trims/2.webp",
             "starting_price": "$ 241,300 *",
             "new": true,
-            "model": "911",
+            "model": "911 Models",
             "BodyDesign": "Coupe",
             "Transmission": "PDK (Automatic)",
             "Seats": "2",
-            "Drive": "All wheel drive"
+            "Drive": "All wheel drive",
+            "FuelType": "Gasoline"
         },
         {
             "name": "Taycan GTS Sport Turismo",
             "image": "/resources/Models/taycan/trims/1.webp",
             "starting_price": "$ 141,200 *",
             "new": false,
-            "model": "Taycan",
+            "model": "Taycan Models",
             "BodyDesign": "Sport Turismo",
             "Transmission": "2-speed transmission",
             "Seats": "4 - 5",
-            "Drive": ""
+            "Drive": "All wheel drive",
+            "FuelType": "Electric"
         },
         {
             "name": "Taycan Turbo S",
             "image": "/resources/Models/taycan/trims/2.webp",
             "starting_price": "$ 194,900 *",
             "new": true,
-            "model": "Taycan",
+            "model": "Taycan Models",
             "BodyDesign": "Sedan",
             "Transmission": "2-speed transmission",
             "Seats": "4 - 5",
-            "Drive": "All wheel drive"
+            "Drive": "All wheel drive",
+            "FuelType": "Electric"
         },
         {
             "name": "Panamera Turbo S E-Hybrid Sport Turismo",
             "image": "/resources/Models/pananmera/trims/1.webp",
             "starting_price": "$ 200,400 *",
             "new": false,
-            "model": "Panamera",
+            "model": "Panamera Models",
             "BodyDesign": "Sport Turismo",
             "Transmission": "PDK (Automatic)",
             "Seats": "4 - 5",
-            "Drive": "All wheel drive"
+            "Drive": "All wheel drive",
+            "FuelType": "Hybrid"
         },
         {
             "name": "Macan S",
             "image": "/resources/Models/macan/trims/1.webp",
             "starting_price": "$ 72,300 *",
             "new": false,
-            "model": "Macan",
+            "model": "Macan Models",
             "BodyDesign": "SUV",
             "Transmission": "PDK (Automatic)",
             "Seats": "4 - 5",
-            "Drive": "All wheel drive"
+            "Drive": "All wheel drive",
+            "FuelType": "Gasoline"
         },
         {
             "name": "Cayenne Turbo GT",
             "image": "/resources/Models/cayenne/trims/2.webp",
             "starting_price": "$ 196,300 *",
             "new": true,
-            "model": "Cayenne",
+            "model": "Cayenne Models",
             "BodyDesign": "SUV",
             "Transmission": "Tiptronic",
             "Seats": "4 - 5",
-            "Drive": "All wheel drive"
+            "Drive": "All wheel drive",
+            "FuelType": "Gasoline"
         }
     ],
     "ModelsList": [
@@ -116,8 +124,9 @@
     ],
     "Drive": [
         "Rear wheel drive",
-        "All wheel drive",
-        "Fuel Type",
+        "All wheel drive"
+    ],
+    "FuelType": [
         "Gasoline",
         "Hybrid",
         "Electric"
