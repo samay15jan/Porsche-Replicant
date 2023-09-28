@@ -17,7 +17,6 @@ const FilterList = ({ onClick }) => {
         FuelType: "Fuel Type"
     };
 
-
     return (
         <Box>
             {Object.keys(objectData).map((option, index) => (
@@ -27,7 +26,7 @@ const FilterList = ({ onClick }) => {
                         <FilterButton
                             key={subindex}
                             text={text}
-                            onClick={onClick}
+                            onClick={() => onClick(text)}
                         />
                     ))}
                 </div>

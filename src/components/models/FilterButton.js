@@ -7,9 +7,9 @@ const Button = styled.div`
 ${tw`border flex border-black p-4 m-4 mr-10 hover:text-red-500`}
 `
 
-const FilterButton = ({ text, key }) => {
+const FilterButton = ({ text, key, onClick }) => {
     return (
-        <Button>
+        <Button key={key} onClick={onClick}>
             <Add />
             {text}
         </Button>

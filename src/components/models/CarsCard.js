@@ -1,10 +1,10 @@
 import React from 'react'
-import styled from 'styled-components/macro'
 import tw from 'twin.macro'
+import styled from 'styled-components/macro'
 
 const Container = styled.div`${tw`hover:cursor-pointer`}`
 const Image = styled.div`${tw`w-72`}`
-const Listing = styled.div`${`text-red-500 font-bold`}`
+const Listing = styled.div`${tw`text-red-500 font-bold`}`
 
 const CarsCard = ({ src, text, price, listing, index }) => {
     return (

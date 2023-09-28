@@ -12,24 +12,16 @@ const Heading = styled.div`
 ${tw`font-bold text-3xl ml-10 mt-10`}
 `
 
-const ModelsList = () => {
+const ModelsList = ({ models }) => {
     const sectionData = data.models;
-    const modelsObjects = {
-        718: "718 Models",
-        911: "911 Models",
-        Taycan: "Taycan Models",
-        Panamera: "Panamera Models",
-        Macan: "Macan Models",
-        Cayenne: "Cayenne Models"
-    }
     return (
         <div >
-            {Object.keys(modelsObjects).map((car, index) => (
+            {Object.keys(models).map((car, index) => (
                 <div key={index}>
-                    <Heading><ArrowForwardIosIcon />{modelsObjects[car]}</Heading>
+                    <Heading><ArrowForwardIosIcon />{models[car]}</Heading>
                     <Container>
                         {sectionData
-                            .filter(model => model.model === modelsObjects[car])
+                            .filter(model => model.model === models[car])
                             .map((model, subIndex) => (
                                 <CarsCard
                                     index={subIndex}
