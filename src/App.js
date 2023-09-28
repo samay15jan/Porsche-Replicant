@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css'
-import Models from './pages/models/Models'
+import Compare from './pages/compare/Compare'
 
 export default function App() {
   return (
     <div>
-      <Models />
+      <Compare />
     </div>
   );
 }

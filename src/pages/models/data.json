@@ -25,30 +25,6 @@
             "FuelType": "Gasoline"
         },
         {
-            "name": "911 GT3 RS",
-            "image": "/resources/Models/911/trims/2.webp",
-            "starting_price": "$ 241,300 *",
-            "new": true,
-            "model": "911 Models",
-            "BodyDesign": "Coupe",
-            "Transmission": "PDK (Automatic)",
-            "Seats": "2",
-            "Drive": "All wheel drive",
-            "FuelType": "Gasoline"
-        },
-        {
-            "name": "Taycan GTS Sport Turismo",
-            "image": "/resources/Models/taycan/trims/1.webp",
-            "starting_price": "$ 141,200 *",
-            "new": false,
-            "model": "Taycan Models",
-            "BodyDesign": "Sport Turismo",
-            "Transmission": "2-speed transmission",
-            "Seats": "4 - 5",
-            "Drive": "All wheel drive",
-            "FuelType": "Electric"
-        },
-        {
             "name": "Taycan Turbo S",
             "image": "/resources/Models/taycan/trims/2.webp",
             "starting_price": "$ 194,900 *",

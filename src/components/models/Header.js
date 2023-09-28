@@ -7,7 +7,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 
 const Container = styled.div`
-    ${tw`flex justify-between items-center w-full text-black my-5`},
+    ${tw`flex justify-between items-center w-full text-black my-5 ml-5`},
     height: 100px;
     padding: 0 20px;
     zIndex: 100;
@@ -24,7 +24,7 @@ const Header = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 4500 300"
                 fill="currentColor"
-                className="w-48 h-10 my-5"
+                className="w-48 h-10 my-5 "
                 css="margin: 0 auto;"
             >
                 <title>Porsche</title>
