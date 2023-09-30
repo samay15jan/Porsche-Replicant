@@ -18,26 +18,16 @@ const Text = styled.div`
     ${tw` text-xl text-white font-bold`}
 `
 
-const Cards = ({ src_logo, src_image, key, onClick }) => {
-    const [imgHovered, setImgHovered] = useState(false)
-    const handleMouseEnter = () => {
-        setImgHovered(true)
-    }
-    const handleMouseLeave = () => {
-        setImgHovered(false)
-    }
+const Cards = ({ logo, image, onClick }) => {
     return (
         <Container
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-            key={key}
             onClick={() => onClick({ src_logo })}
         >
             <SubContainer>
-                <Image className={`transition-transform ${imgHovered ? 'transform scale-110' : ''}`} src={src_image} alt='card' />
+                <Image src={image} alt='card' />
                 <TextContainer>
                     <Text>
-                        {src_logo}
+                        {logo}
                     </Text>
                 </TextContainer>
             </SubContainer>

@@ -3,27 +3,33 @@
         {
             "Range_1": {
                 "Image": "/resources/homepage/03_section/1.jpg",
-                "Logo": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/718.min.d92dc0fe91e67bd51120d91c5cd1eb2f.svg"
+                "Logo": "718",
+                "Model": "/resources/compare/718/Arctic_Grey/Main.webp"
             },
             "Range_2": {
                 "Image": "/resources/homepage/03_section/2.jpg",
-                "Logo": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/911.min.5c462658f9d472e90a139173414e8fdd.svg"
+                "Logo": "911",
+                "Model": "/resources/compare/911/Racing_Yellow/main.webp"
             },
             "Range_3": {
                 "Image": "/resources/homepage/03_section/3.jpg",
-                "Logo": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/taycan.min.ba4e7c3cb86a78d626d4463b81be0f23.svg"
+                "Logo": "Taycan",
+                "Model": "/resources/compare/Taycan/Carrara_White_Metallic/main.png"
             },
             "Range_4": {
                 "Image": "/resources/homepage/03_section/4.jpg",
-                "Logo": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/panamera.min.d35913b252657f7c5cfcae74cfd61b26.svg"
+                "Logo": "Panamera",
+                "Model": "/resources/compare/Panamera/Carrara_White_Metallic/main.webp"
             },
             "Range_5": {
                 "Image": "/resources/homepage/03_section/5.jpg",
-                "Logo": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/macan.min.e38fbf34ed4f00066620901babd99af0.svg"
+                "Logo": "Macan",
+                "Model": "/resources/compare/Macan/Papaya_Metallic/main.webp"
             },
             "Range_6": {
                 "Image": "/resources/homepage/03_section/6.jpg",
-                "Logo": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/cayenne.min.4026ba6b335cc98e10592f900cf731e1.svg"
+                "Logo": "Cayenne",
+                "Model": "/resources/compare/Cayenne/Chromite_Black_Metallic/main.webp"
             }
         }
     ]
