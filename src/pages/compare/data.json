@@ -2,34 +2,46 @@
     "OverflowMenu": [
         {
             "Range_1": {
+                "ID": "001",
                 "Image": "/resources/homepage/03_section/1.jpg",
                 "Logo": "718",
-                "Model": "/resources/compare/718/Arctic_Grey/Main.webp"
+                "Model": "/resources/compare/718/Arctic_Grey/main.webp",
+                "Name": "718 Cayman GT4 RS"
             },
             "Range_2": {
+                "ID": "002",
                 "Image": "/resources/homepage/03_section/2.jpg",
                 "Logo": "911",
-                "Model": "/resources/compare/911/Racing_Yellow/main.webp"
+                "Model": "/resources/compare/911/Racing_Yellow/main.webp",
+                "Name": "911 Carrera S Cabriolet"
             },
             "Range_3": {
+                "ID": "003",
                 "Image": "/resources/homepage/03_section/3.jpg",
                 "Logo": "Taycan",
-                "Model": "/resources/compare/Taycan/Carrara_White_Metallic/main.png"
+                "Model": "/resources/compare/Taycan/Carrara_White_Metallic/main.webp",
+                "Name": "Taycan Turbo S"
             },
             "Range_4": {
+                "ID": "004",
                 "Image": "/resources/homepage/03_section/4.jpg",
                 "Logo": "Panamera",
-                "Model": "/resources/compare/Panamera/Carrara_White_Metallic/main.webp"
+                "Model": "/resources/compare/Panamera/Carrara_White_Metallic/main.webp",
+                "Name": "Panamera Turbo S E-Hybrid Sport Turismo"
             },
             "Range_5": {
+                "ID": "005",
                 "Image": "/resources/homepage/03_section/5.jpg",
                 "Logo": "Macan",
-                "Model": "/resources/compare/Macan/Papaya_Metallic/main.webp"
+                "Model": "/resources/compare/Macan/Papaya_Metallic/main.webp",
+                "Name": "Macan S"
             },
             "Range_6": {
+                "ID": "006",
                 "Image": "/resources/homepage/03_section/6.jpg",
                 "Logo": "Cayenne",
-                "Model": "/resources/compare/Cayenne/Chromite_Black_Metallic/main.webp"
+                "Model": "/resources/compare/Cayenne/Chromite_Black_Metallic/main.webp",
+                "Name": "Cayenne Turbo GT"
             }
         }
     ]
