@@ -19,10 +19,10 @@ const Compare = () => {
             {overflow ?
                 <>
                     <div><Header /></div>
-                    <div><Main onClick={toggleOverflow} /></div>
+                    <div><Main toggleOverflow={toggleOverflow} /></div>
                     <div><Section_7 /></div>
                 </>
-                : <OverflowMenu onClick={toggleOverflow} />
+                : <OverflowMenu toggleOverflow={toggleOverflow} />
             }
         </Container>
     )

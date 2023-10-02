@@ -3,22 +3,22 @@ import tw from 'twin.macro'
 import styled from 'styled-components/macro'
 
 const Container = styled.div`
-    ${tw`bg-slate-100 w-36 mb-2 `}
+    ${tw`bg-slate-100 w-44 mb-2 `}
 `
 const SubContainer = styled.div`
     ${tw`relative flex justify-center overflow-hidden border-8 border-slate-100 rounded-3xl`}
 `
 const Image = styled.img`
-    ${tw`w-32 rounded-2xl`}
+    ${tw`w-full h-full rounded-2xl`}
 `
 const TextContainer = styled.div`
-    ${tw`absolute bottom-0 w-36 flex justify-center bg-black bg-opacity-50`}
+    ${tw`absolute bottom-0 w-full flex justify-center bg-black bg-opacity-50`}
 `
 const Text = styled.div`
     ${tw` text-xl text-white font-bold`}
 `
 
-const Cards = ({ src_logo, src_image, key, onClick }) => {
+const Cards = ({ src_logo, src_image, id, key, toggleMenu, onCardClick }) => {
     const [imgHovered, setImgHovered] = useState(false)
     const handleMouseEnter = () => {
         setImgHovered(true)
@@ -26,22 +26,31 @@ const Cards = ({ src_logo, src_image, key, onClick }) => {
     const handleMouseLeave = () => {
         setImgHovered(false)
     }
+
+    const handleCardClick = (id) => {
+        onCardClick(id);
+    };
+
+    const handleClick = () => {
+        toggleMenu({ id });
+        onCardClick(id);
+    };
+
     return (
         <Container
+            id={id}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
             key={key}
-            onClick={() => onClick({ src_logo })}
+            onClick={handleClick}
         >
             <SubContainer>
-                <Image className={`transition-transform ${imgHovered ? 'transform scale-110' : ''}`} src={src_image} alt='card' />
+                <Image className={`transition-transform ${imgHovered ? 'transform scale-110' : ''}`} src={src_image} />
                 <TextContainer>
-                    <Text>
-                        {src_logo}
-                    </Text>
+                    <Text>{src_logo}</Text>
                 </TextContainer>
             </SubContainer>
-        </Container>
+        </Container >
     )
 }
 

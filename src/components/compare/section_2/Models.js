@@ -3,36 +3,44 @@ import tw from 'twin.macro'
 import styled from 'styled-components/macro'
 
 const Container = styled.div`
-    ${tw`bg-slate-100 w-36 mb-2 `}
+    ${tw`bg-slate-100 w-44 mb-2 hover:bg-gray-300`}
 `
 const SubContainer = styled.div`
-    ${tw`relative flex justify-center overflow-hidden border-8 border-slate-100 rounded-3xl`}
+    ${tw`relative justify-center overflow-hidden border-8 border-slate-100 rounded-3xl bg-gray-200`}
 `
-const Image = styled.img`
-    ${tw`w-32 rounded-2xl`}
+const Model = styled.img`
+    ${tw`w-auto rounded-2xl`}
 `
 const TextContainer = styled.div`
-    ${tw`absolute bottom-0 w-36 flex justify-center bg-black bg-opacity-50`}
+    ${tw`p-2`}
 `
-const Text = styled.div`
-    ${tw` text-xl text-white font-bold`}
+const Name = styled.div`
+    ${tw`text-black text-sm`}
 `
 
-const Cards = ({ logo, image, onClick }) => {
+const Models = ({ src_model, src_name, onClick, id }) => {
+    const [imgHovered, setImgHovered] = useState(false)
+    const handleMouseEnter = () => {
+        setImgHovered(true)
+    }
+    const handleMouseLeave = () => {
+        setImgHovered(false)
+    }
     return (
         <Container
-            onClick={() => onClick({ src_logo })}
+            id={id}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            onClick={() => onClick({ id })}
         >
             <SubContainer>
-                <Image src={image} alt='card' />
+                <Model className={`transition-transform ${imgHovered ? 'transform scale-110' : ''}`} src={src_model} />
                 <TextContainer>
-                    <Text>
-                        {logo}
-                    </Text>
+                    <Name>{src_name}</Name>
                 </TextContainer>
             </SubContainer>
         </Container>
     )
 }
 
-export default Cards
+export default Models
