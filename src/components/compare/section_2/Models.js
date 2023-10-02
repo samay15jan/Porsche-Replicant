@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { useDispatch } from 'react-redux'
+import { compare1 } from '../../../features/compare/compareSlice'
 import tw from 'twin.macro'
 import styled from 'styled-components/macro'
 
@@ -18,7 +20,13 @@ const Name = styled.div`
     ${tw`text-black text-sm`}
 `
 
-const Models = ({ src_model, src_name, onClick, id }) => {
+const Models = ({ src_model, src_name, id }) => {
+
+    const dispatch = useDispatch()
+    const selectionHandler = (id) => {
+        dispatch(compare1(id))
+    }
+
     const [imgHovered, setImgHovered] = useState(false)
     const handleMouseEnter = () => {
         setImgHovered(true)
@@ -26,12 +34,13 @@ const Models = ({ src_model, src_name, onClick, id }) => {
     const handleMouseLeave = () => {
         setImgHovered(false)
     }
+
     return (
         <Container
             id={id}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            onClick={() => onClick({ id })}
+            onClick={() => selectionHandler(id)}
         >
             <SubContainer>
                 <Model className={`transition-transform ${imgHovered ? 'transform scale-110' : ''}`} src={src_model} />

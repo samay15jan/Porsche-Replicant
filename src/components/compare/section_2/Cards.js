@@ -27,10 +27,6 @@ const Cards = ({ src_logo, src_image, id, key, toggleMenu, onCardClick }) => {
         setImgHovered(false)
     }
 
-    const handleCardClick = (id) => {
-        onCardClick(id);
-    };
-
     const handleClick = () => {
         toggleMenu({ id });
         onCardClick(id);

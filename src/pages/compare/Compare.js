@@ -14,17 +14,16 @@ const Compare = () => {
     const toggleOverflow = () => {
         setOverflow(!overflow)
     }
-    return (
-        <Container>
-            {overflow ?
-                <>
-                    <div><Header /></div>
-                    <div><Main toggleOverflow={toggleOverflow} /></div>
-                    <div><Section_7 /></div>
-                </>
-                : <OverflowMenu toggleOverflow={toggleOverflow} />
-            }
-        </Container>
+    return (<Container>
+        {overflow ?
+            <>
+                <div><Header /></div>
+                <div><Main toggleOverflow={toggleOverflow} /></div>
+                <div><Section_7 /></div>
+            </>
+            : <OverflowMenu toggleOverflow={toggleOverflow} />
+        }
+    </Container>
     )
 }
 
