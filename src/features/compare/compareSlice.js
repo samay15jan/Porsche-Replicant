@@ -1,8 +1,10 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-    compare: []
+    compare: [],
+    isCounting: false,
 }
+
 export const compareSlice = createSlice({
     name: 'compare',
     initialState,
@@ -11,11 +13,20 @@ export const compareSlice = createSlice({
             const compare1 = {
                 id: action.payload,
             }
-            state.compare.push(compare1)
+            state.compare.unshift(compare1)
+        },
+        compare2: (state, action) => {
+            const compare2 = {
+                id: action.payload,
+            }
+            state.compare.unshift(compare2)
+        },
+        count: (state, action) => {
+            state.isCounting = action.payload;
         }
     }
 })
 
-export const { compare1 } = compareSlice.actions
+export const { compare1, compare2, count } = compareSlice.actions
 
 export default compareSlice.reducer
