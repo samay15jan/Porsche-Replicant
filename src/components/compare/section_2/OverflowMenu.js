@@ -49,7 +49,7 @@ const OverflowMenu = ({ toggleOverflow }) => {
                 {menu ? <DividerHalf /> : <DividerFull />}
                 {menu
                     ? <CardsContainer toggleMenu={toggleMenu} onCardClick={handleCardClick} />
-                    : <ModelsContainer toggleMenu={toggleMenu} selectedCardId={selectedCardId} />
+                    : <ModelsContainer toggleOverflow={toggleOverflow} toggleMenu={toggleMenu} selectedCardId={selectedCardId} />
                 }
             </SubContainer>
         </Container>

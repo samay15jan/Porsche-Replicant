@@ -4,7 +4,7 @@ import tw from 'twin.macro'
 import styled from 'styled-components'
 
 const Container = styled.div`
-${tw`hover:bg-slate-100 border-slate-100`}
+${tw`hover:bg-slate-100 border-slate-100 mt-5`}
 `
 
 const Button = styled.div`

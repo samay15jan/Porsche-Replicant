@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
     compare: [],
-    isCounting: false,
+    isCounting: false
 }
 
 export const compareSlice = createSlice({
@@ -10,20 +10,25 @@ export const compareSlice = createSlice({
     initialState,
     reducers: {
         compare1: (state, action) => {
-            const compare1 = {
-                id: action.payload,
+            const newId = action.payload
+            return {
+                ...state,
+                compare: [{ id: newId }, ...state.compare]
             }
-            state.compare.unshift(compare1)
         },
         compare2: (state, action) => {
-            const compare2 = {
-                id: action.payload,
+            const newId = action.payload
+            return {
+                ...state,
+                compare: [{ id: newId }, ...state.compare]
             }
-            state.compare.unshift(compare2)
         },
         count: (state, action) => {
-            state.isCounting = action.payload;
-        }
+            return {
+                ...state,
+                isCounting: action.payload,
+            }
+        },
     }
 })
 

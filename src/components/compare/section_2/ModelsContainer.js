@@ -9,7 +9,7 @@ import { useSelector } from 'react-redux';
 
 const Grid = styled.div`${tw`grid grid-cols-3 p-5 bg-slate-100`}`
 
-const ModelsContainer = ({ toggleMenu, selectedCardId }) => {
+const ModelsContainer = ({ toggleMenu, selectedCardId, toggleOverflow }) => {
 
     const compareState = useSelector((state) => state.compare);
     const compareData = compareState.compare;
@@ -35,7 +35,7 @@ const ModelsContainer = ({ toggleMenu, selectedCardId }) => {
                         src_model={SectionData[range].Model}
                     />
                 )))}
-            <Button>Add to comparision {text()}</Button>
+            <Button onClick={toggleOverflow}>Add to comparision {text()}</Button>
             <Button onClick={toggleMenu}><ArrowBack />Back</Button>
         </Grid>
     )
