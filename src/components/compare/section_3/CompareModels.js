@@ -1,13 +1,30 @@
 import React from 'react'
 import tw from 'twin.macro'
-import styled from 'styled-components'
-import Container from './section_3.1/Container'
+import styled from 'styled-components/macro'
+import Data from '../../../pages/compare/modelsData.json'
+import { useSelector } from 'react-redux';
+import ButtonFixedBar from './01_models/ButtonFixedBar'
+import Container from './01_models/Container'
+import Overview from './02_overview/Overview'
+import Design from './03_design/Design'
 
-const CompareModels = () => {
+const Divider = styled.hr`${tw`w-screen border border-slate-200 my-4`}`
+
+const CompareModels = ({ onClick }) => {
+    const sectionData = Data.ModelsData
+    const compareState = useSelector((state) => state.compare);
+    const compareData = compareState.compare
+    const Model1 = sectionData.find((model) => model.ID === compareData[1].id);
+    const Model2 = sectionData.find((model) => model.ID === compareData[0].id);
+
     return (
         <div>
-            <Container
-            />
+            <Container onClick={onClick} Model1={Model1} Model2={Model2} />
+            <Divider />
+            <ButtonFixedBar />
+            <Divider />
+            <Overview Model1={Model1} Model2={Model2} />
+            <Design Model1={Model1} Model2={Model2} />
         </div>
     )
 }

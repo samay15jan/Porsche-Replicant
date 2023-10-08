@@ -9,9 +9,12 @@ import { useSelector } from 'react-redux';
 const ButtonContainer = styled.div`${tw`flex justify-between mx-72`}`
 const Main = ({ toggleOverflow }) => {
     const [reduxData, setReduxData] = useState(false)
-    const compareState = useSelector((state) => state.compare);
-    const compareData = compareState.compare;
+    const compareState = useSelector((state) => state.compare)
+    const compareData = compareState.compare
 
+    const toggleUI = () => {
+        setReduxData(!reduxData)
+    }
     const toggleRedux = () => {
         if (compareData[0] && compareData[0].id && compareData[1] && compareData[1].id === null) {
             return
@@ -28,7 +31,7 @@ const Main = ({ toggleOverflow }) => {
         <>
             <Heading />
             {reduxData
-                ? <CompareModels />
+                ? <CompareModels onClick={toggleUI} />
                 : <ButtonContainer>
                     <Button text={"Select model"} onClick={toggleOverflow} />
                     <Button text={"Select model"} onClick={toggleOverflow} />

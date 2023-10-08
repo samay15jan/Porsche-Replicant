@@ -32,6 +32,6 @@ export const compareSlice = createSlice({
     }
 })
 
-export const { compare1, compare2, count } = compareSlice.actions
+export const { compare1, compare2, count, removeData } = compareSlice.actions
 
 export default compareSlice.reducer
