@@ -1,0 +1,52 @@
+{
+    "Colors": [
+        {
+            "ID": "001",
+            "Arctic_Grey": "Grey",
+            "Black": "Black",
+            "Gentian_Blue_Metallic": "Blue",
+            "Racing_Yellow": "Yellow",
+            "Common": "Common"
+        },
+        {
+            "ID": "002",
+            "Racing_Yellow": "Yellow",
+            "Aventurine_Green_Metallic": "Green",
+            "Carmine_Red": "Red",
+            "Chalk": "Chalk",
+            "Common": "Common"
+        },
+        {
+            "ID": "003",
+            "Carrara_White_Metallic": "White",
+            "Frozen_Berry_Metallic": "Berry",
+            "Gentian_Blue_Metallic": "Blue",
+            "Jet_Black_Metallic": "Black",
+            "Common": "Common"
+        },
+        {
+            "ID": "004",
+            "Carmine_Red": "Red",
+            "Carrara_White_Metallic": "White",
+            "Jet_Black_Metallic": "Black",
+            "Night_Blue_Metallic": "Blue",
+            "Common": "Common"
+        },
+        {
+            "ID": "005",
+            "Dolomite_Silver_Metallic": "Arctic",
+            "Gentian_Blue_Metallic": "Blue",
+            "Jet_Black_Metallic": "Black",
+            "Papaya_Metallic": "Orange",
+            "Common": "Common"
+        },
+        {
+            "ID": "006",
+            "Algarve_Blue_Metallic": "Blue",
+            "Black": "Grey",
+            "Arctic_Grey": "Chalk",
+            "Chromite_Black_Metallic": "Black",
+            "Common": "Common"
+        }
+    ]
+}

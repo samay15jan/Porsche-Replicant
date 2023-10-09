@@ -3,14 +3,14 @@ import tw from 'twin.macro'
 import styled from 'styled-components/macro'
 
 const Container = styled.div`${tw`px-8`}`
-const Image = styled.img`${tw`w-[450px] rounded-2xl`}`
+const Image = styled.img`${tw`w-44 rounded-2xl`}`
 
-const BigCard = ({ img }) => {
+const SmallCard = ({ index, Model, onClick }) => {
     return (
         <Container>
-            <Image src={img} />
+            <Image index={index} src={Model} onclick={onClick} />
         </Container>
     )
 }
 
-export default BigCard
+export default SmallCard
