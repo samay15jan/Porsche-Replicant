@@ -8,6 +8,21 @@ const Icon = styled.div`
 `
 
 const Color = ({ color }) => {
+    const iconColor = {
+        Grey: "bg-[#6a6c70]",
+        Black: "bg-[#000000]",
+        Blue1: "bg-[#00194b]",
+        Blue2: "bg-[#9edef7]",
+        Blue3: "bg-[#1d2738]",
+        Blue4: "bg-[#2f3743]",
+        Yellow: "bg-[#ffcc00]",
+        Green: "bg-[#3c3c32]",
+        Red: "bg-[#990033]",
+        White: "bg-[#c7c7bf]",
+        Berry: "bg-[#eff5f9]",
+        Silver: "bg-[#c3cdd3]",
+        Orange: "bg-[#d34624]",
+    }
     return (
         <div>
             <Icon color={color} />

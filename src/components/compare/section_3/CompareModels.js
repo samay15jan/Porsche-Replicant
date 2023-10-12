@@ -28,7 +28,7 @@ const CompareModels = ({ onClick }) => {
             <ButtonFixedBar />
             <Divider />
             <Overview Model1={Model1} Model2={Model2} />
-            <Design Model1={Model1} Model2={Model2} color1={color1} color2={color2} />
+            <Design color1={color1} color2={color2} />
         </div>
     )
 }

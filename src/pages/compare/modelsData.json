@@ -25,38 +25,6 @@
             "Volume-Rear": "4.8 ft³",
             "FuelTank": "16.9 gal",
             "Volume-Front": "4.4 ft³",
-            "Grey": {
-                "image1": "/resources/compare/718/Arctic_Grey/1.webp",
-                "image2": "/resources/compare/718/Arctic_Grey/2.webp",
-                "image3": "/resources/compare/718/Arctic_Grey/3.webp",
-                "image4": "/resources/compare/718/Arctic_Grey/4.webp",
-                "image5": "/resources/compare/718/Arctic_Grey/main.webp"
-            },
-            "Black": {
-                "image1": "/resources/compare/718/Black/1.webp",
-                "image2": "/resources/compare/718/Black/2.webp",
-                "image3": "/resources/compare/718/Black/3.webp",
-                "image4": "/resources/compare/718/Black/4.webp",
-                "image5": "/resources/compare/718/Black/main.webp"
-            },
-            "Blue": {
-                "image1": "/resources/compare/718/Gentian_Blue_Metallic/1.webp",
-                "image2": "/resources/compare/718/Gentian_Blue_Metallic/2.webp",
-                "image3": "/resources/compare/718/Gentian_Blue_Metallic/3.webp",
-                "image4": "/resources/compare/718/Gentian_Blue_Metallic/4.webp",
-                "image5": "/resources/compare/718/Gentian_Blue_Metallic/main.webp"
-            },
-            "Yellow": {
-                "image1": "/resources/compare/718/Racing_Yellow/1.webp",
-                "image2": "/resources/compare/718/Racing_Yellow/2.webp",
-                "image3": "/resources/compare/718/Racing_Yellow/3.webp",
-                "image4": "/resources/compare/718/Racing_Yellow/4.webp",
-                "image5": "/resources/compare/718/Racing_Yellow/main.webp"
-            },
-            "Common": {
-                "image1": "/resources/compare/718/Common/1.webp",
-                "image2": "/resources/compare/718/Common/2.webp"
-            },
             "exhaustImage": "/resources/compare/718/exhaust.jpg",
             "exhaustAudio": "/resources/compare/718/exhaust.mp3"
         },
@@ -85,38 +53,6 @@
             "Volume-Rear": "-",
             "FuelTank": "16.9 gal",
             "Volume-Front": "4.6 ft³",
-            "Yellow": {
-                "image1": "/resources/compare/911/Racing_Yellow/1.webp",
-                "image2": "/resources/compare/911/Racing_Yellow/2.webp",
-                "image3": "/resources/compare/911/Racing_Yellow/3.webp",
-                "image4": "/resources/compare/911/Racing_Yellow/4.webp",
-                "image5": "/resources/compare/911/Racing_Yellow/main.webp"
-            },
-            "Green": {
-                "image1": "/resources/compare/911/Aventurine_Green_Metallic/1.webp",
-                "image2": "/resources/compare/911/Aventurine_Green_Metallic/2.webp",
-                "image3": "/resources/compare/911/Aventurine_Green_Metallic/3.webp",
-                "image4": "/resources/compare/911/Aventurine_Green_Metallic/4.webp",
-                "image5": "/resources/compare/911/Aventurine_Green_Metallic/main.webp"
-            },
-            "Red": {
-                "image1": "/resources/compare/911/Carmine_Red/1.webp",
-                "image2": "/resources/compare/911/Carmine_Red/2.webp",
-                "image3": "/resources/compare/911/Carmine_Red/3.webp",
-                "image4": "/resources/compare/911/Carmine_Red/4.webp",
-                "image5": "/resources/compare/911/Carmine_Red/main.webp"
-            },
-            "Chalk": {
-                "image1": "/resources/compare/911/Chalk/1.webp",
-                "image2": "/resources/compare/911/Chalk/2.webp",
-                "image3": "/resources/compare/911/Chalk/3.webp",
-                "image4": "/resources/compare/911/Chalk/4.webp",
-                "image5": "/resources/compare/911/Chalk/main.webp"
-            },
-            "Common": {
-                "image1": "/resources/compare/911/Common/1.webp",
-                "image2": "/resources/compare/911/Common/2.webp"
-            },
             "exhaustImage": "/resources/compare/911/exhaust.jpg",
             "exhaustAudio": "/resources/compare/911/exhaust.mp3"
         },
@@ -145,38 +81,6 @@
             "Volume-Rear": "12.9 ft³",
             "FuelTank": "-",
             "Volume-Front": "2.9 ft³",
-            "White": {
-                "image1": "/resources/compare/Taycan/Carrara_White_Metallic/1.webp",
-                "image2": "/resources/compare/Taycan/Carrara_White_Metallic/2.webp",
-                "image3": "/resources/compare/Taycan/Carrara_White_Metallic/3.webp",
-                "image4": "/resources/compare/Taycan/Carrara_White_Metallic/4.webp",
-                "image5": "/resources/compare/Taycan/Carrara_White_Metallic/main.webp"
-            },
-            "Berry": {
-                "image1": "/resources/compare/Taycan/Frozen_Berry_Metallic/1.webp",
-                "image2": "/resources/compare/Taycan/Frozen_Berry_Metallic/2.webp",
-                "image3": "/resources/compare/Taycan/Frozen_Berry_Metallic/3.webp",
-                "image4": "/resources/compare/Taycan/Frozen_Berry_Metallic/4.webp",
-                "image5": "/resources/compare/Taycan/Frozen_Berry_Metallic/main.webp"
-            },
-            "Blue": {
-                "image1": "/resources/compare/Taycan/Frozen_Blue_Metallic/1.webp",
-                "image2": "/resources/compare/Taycan/Frozen_Blue_Metallic/2.webp",
-                "image3": "/resources/compare/Taycan/Frozen_Blue_Metallic/3.webp",
-                "image4": "/resources/compare/Taycan/Frozen_Blue_Metallic/4.webp",
-                "image5": "/resources/compare/Taycan/Frozen_Blue_Metallic/main.webp"
-            },
-            "Black": {
-                "image1": "/resources/compare/Taycan/Jet_Black_Metallic/1.webp",
-                "image2": "/resources/compare/Taycan/Jet_Black_Metallic/2.webp",
-                "image3": "/resources/compare/Taycan/Jet_Black_Metallic/3.webp",
-                "image4": "/resources/compare/Taycan/Jet_Black_Metallic/4.webp",
-                "image5": "/resources/compare/Taycan/Jet_Black_Metallic/main.webp"
-            },
-            "Common": {
-                "image1": "/resources/compare/Taycan/Jet_Black_Metallic/1.webp",
-                "image2": "/resources/compare/Taycan/Jet_Black_Metallic/2.webp"
-            },
             "exhaustImage": "/resources/compare/Taycan/exhaust.jpg",
             "exhaustAudio": "/resources/compare/Taycan/exhaust.mp3"
         },
@@ -205,38 +109,6 @@
             "Volume-Rear": "14.7 ft³",
             "FuelTank": "21.1 gal",
             "Volume-Front": "45.4 ft³",
-            "Red": {
-                "image1": "ublic/resources/compare/Panamera/Carmine_Red/1.webp",
-                "image2": "/resources/compare/Panamera/Carmine_Red/2.webp",
-                "image3": "/resources/compare/Panamera/Carmine_Red/3.webp",
-                "image4": "/resources/compare/Panamera/Carmine_Red/4.webp",
-                "image5": "/resources/compare/Panamera/Carmine_Red/main.webp"
-            },
-            "White": {
-                "image1": "/resources/compare/Panamera/Carrara_White_Metallic/1.webp",
-                "image2": "/resources/compare/Panamera/Carrara_White_Metallic/2.webp",
-                "image3": "/resources/compare/Panamera/Carrara_White_Metallic/3.webp",
-                "image4": "/resources/compare/Panamera/Carrara_White_Metallic/4.webp",
-                "image5": "/resources/compare/Panamera/Carrara_White_Metallic/main.webp"
-            },
-            "Black": {
-                "image1": "/resources/compare/Panamera/Jet_Black_Metallic/1.webp",
-                "image2": "/resources/compare/Panamera/Jet_Black_Metallic/2.webp",
-                "image3": "/resources/compare/Panamera/Jet_Black_Metallic/3.webp",
-                "image4": "/resources/compare/Panamera/Jet_Black_Metallic/4.webp",
-                "image5": "/resources/compare/Panamera/Jet_Black_Metallic/main.webp"
-            },
-            "Blue": {
-                "image1": "/resources/compare/Panamera/Night_Blue_Metallic/1.webp",
-                "image2": "/resources/compare/Panamera/Night_Blue_Metallic/2.webp",
-                "image3": "/resources/compare/Panamera/Night_Blue_Metallic/3.webp",
-                "image4": "/resources/compare/Panamera/Night_Blue_Metallic/4.webp",
-                "image5": "/resources/compare/Panamera/Night_Blue_Metallic/main.webp"
-            },
-            "Common": {
-                "image1": "/resources/compare/Panamera/Common/1.webp",
-                "image2": "/resources/compare/Panamera/Common/2.webp"
-            },
             "exhaustImage": "/resources/compare/Panamera/exDolomite_Silver_Metallichaust.jpg",
             "exhaustAudio": "/resources/compare/Panamera/exhaust.mp3"
         },
@@ -265,38 +137,6 @@
             "Volume-Rear": "17.2 ft³",
             "FuelTank": "19.8 gal",
             "Volume-Front": "53.0 ft³",
-            "Arctic": {
-                "image1": "/resources/compare/Macan/Dolomite_Silver_Metallic/1.webp",
-                "image2": "/resources/compare/Macan/Dolomite_Silver_Metallic/2.webp",
-                "image3": "/resources/compare/Macan/Dolomite_Silver_Metallic/3.webp",
-                "image4": "/resources/compare/Macan/Dolomite_Silver_Metallic/4.webp",
-                "image5": "/resources/compare/Macan/Dolomite_Silver_Metallic/main.webp"
-            },
-            "Blue": {
-                "image1": "/resources/compare/Macan/Gentian_Blue_Metallic/1.webp",
-                "image2": "/resources/compare/Macan/Gentian_Blue_Metallic/2.webp",
-                "image3": "/resources/compare/Macan/Gentian_Blue_Metallic/3.webp",
-                "image4": "/resources/compare/Macan/Gentian_Blue_Metallic/4.webp",
-                "image5": "/resources/compare/Macan/Gentian_Blue_Metallic/main.webp"
-            },
-            "Black": {
-                "image1": "/resources/compare/Macan/Jet_Black_Metallic/1.webp",
-                "image2": "/resources/compare/Macan/Jet_Black_Metallic/2.webp",
-                "image3": "/resources/compare/Macan/Jet_Black_Metallic/3.webp",
-                "image4": "/resources/compare/Macan/Jet_Black_Metallic/4.webp",
-                "image5": "/resources/compare/Macan/Jet_Black_Metallic/main.webp"
-            },
-            "Orange": {
-                "image1": "/resources/compare/Macan/Papaya_Metallic/1.webp",
-                "image2": "/resources/compare/Macan/Papaya_Metallic/2.webp",
-                "image3": "/resources/compare/Macan/Papaya_Metallic/3.webp",
-                "image4": "/resources/compare/Macan/Papaya_Metallic/4.webp",
-                "image5": "/resources/compare/Macan/Papaya_Metallic/main.webp"
-            },
-            "Common": {
-                "image1": "/resources/compare/Macan/Common/1.webp",
-                "image2": "/resources/compare/Macan/Common/2.webp"
-            },
             "exhaustImage": "",
             "exhaustAudio": ""
         },
@@ -325,38 +165,6 @@
             "Volume-Rear": "20.3 ft³",
             "FuelTank": "23.7 gal",
             "Volume-Front": "52.4 ft³",
-            "Blue": {
-                "image1": "/resources/compare/Cayenne/Algarve_Blue_Metallic/1.webp",
-                "image2": "/resources/compare/Cayenne/Algarve_Blue_Metallic/2.webp",
-                "image3": "/resources/compare/Cayenne/Algarve_Blue_Metallic/3.webp",
-                "image4": "/resources/compare/Cayenne/Algarve_Blue_Metallic/4.webp",
-                "image5": "/resources/compare/Cayenne/Algarve_Blue_Metallic/main.webp"
-            },
-            "Grey": {
-                "image1": "/resources/compare/Cayenne/Arctic_Grey/1.webp",
-                "image2": "/resources/compare/Cayenne/Arctic_Grey/2.webp",
-                "image3": "/resources/compare/Cayenne/Arctic_Grey/3.webp",
-                "image4": "/resources/compare/Cayenne/Arctic_Grey/4.webp",
-                "image5": "/resources/compare/Cayenne/Arctic_Grey/main.webp"
-            },
-            "Chalk": {
-                "image1": "/resources/compare/Cayenne/Chalk/1.webp",
-                "image2": "/resources/compare/Cayenne/Chalk/2.webp",
-                "image3": "/resources/compare/Cayenne/Chalk/3.webp",
-                "image4": "/resources/compare/Cayenne/Chalk/4.webp",
-                "image5": "/resources/compare/Cayenne/Chalk/main.webp"
-            },
-            "Black": {
-                "image1": "/resources/compare/Cayenne/Chromite_Black_Metallic/1.webp",
-                "image2": "/resources/compare/Cayenne/Chromite_Black_Metallic/2.webp",
-                "image3": "/resources/compare/Cayenne/Chromite_Black_Metallic/3.webp",
-                "image4": "/resources/compare/Cayenne/Chromite_Black_Metallic/4.webp",
-                "image5": "/resources/compare/Cayenne/Chromite_Black_Metallic/main.webp"
-            },
-            "Common": {
-                "image1": "/resources/compare/Cayenne/Common/1.webp",
-                "image2": "/resources/compare/Cayenne/Common/2.webp"
-            },
             "exhaustImage": "",
             "exhaustAudio": ""
         }

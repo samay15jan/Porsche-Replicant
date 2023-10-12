@@ -3,22 +3,17 @@ import SmallCard from './SmallCard'
 import tw from 'twin.macro'
 import styled from 'styled-components/macro'
 
-const Container = styled.div`${tw`flex`}`
+const Container = styled.div`${tw`flex space-x-2 overflow-x-auto mx-8`}`
+const SubContainer = styled.div`${tw`flex-none`}`
 
-const SmallCardsContainer = ({ Model, color, onClick }) => {
-    const images = {
-        img1: "Image1",
-        img2: "Image2",
-        img3: "Image3",
-        img4: "Image4",
-        img5: "Image5"
-    }
+const SmallCardsContainer = ({ stock, onClick }) => {
     return (
         <Container>
-            {Object.keys(color).map((colorValue, index) => {
-                const modelData = Model[colorValue];
-                return <SmallCard index={index} Model={modelData} onclick={onClick} />
-            })}
+            {Object.values(stock).map((model, index) => (
+                <SubContainer key={index}>
+                    <SmallCard model={model} onClick={onClick} />
+                </SubContainer>
+            ))}
         </Container>
     )
 }

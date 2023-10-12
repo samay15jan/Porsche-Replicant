@@ -2,51 +2,309 @@
     "Colors": [
         {
             "ID": "001",
-            "Arctic_Grey": "Grey",
-            "Black": "Black",
-            "Gentian_Blue_Metallic": "Blue",
-            "Racing_Yellow": "Yellow",
-            "Common": "Common"
+            "Default": {
+                "Name": "Arctic Grey",
+                "Main": "/resources/compare/718/Arctic_Grey/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/718/Arctic_Grey/1.webp",
+                    "image2": "/resources/compare/718/Arctic_Grey/2.webp",
+                    "image3": "/resources/compare/718/Arctic_Grey/3.webp",
+                    "image4": "/resources/compare/718/Arctic_Grey/4.webp",
+                    "image5": "/resources/compare/718/Common/1.webp",
+                    "image6": "/resources/compare/718/Common/2.webp"
+                }
+            },
+            "Black": {
+                "Name": "Black",
+                "Main": "/resources/compare/718/Black/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/718/Black/1.webp",
+                    "image2": "/resources/compare/718/Black/2.webp",
+                    "image3": "/resources/compare/718/Black/3.webp",
+                    "image4": "/resources/compare/718/Black/4.webp",
+                    "image5": "/resources/compare/718/Common/1.webp",
+                    "image6": "/resources/compare/718/Common/2.webp"
+                }
+            },
+            "Blue1": {
+                "Name": "Gentian Blue Metallic",
+                "Main": "/resources/compare/718/Gentian_Blue_Metallic/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/718/Gentian_Blue_Metallic/1.webp",
+                    "image2": "/resources/compare/718/Gentian_Blue_Metallic/2.webp",
+                    "image3": "/resources/compare/718/Gentian_Blue_Metallic/3.webp",
+                    "image4": "/resources/compare/718/Gentian_Blue_Metallic/4.webp",
+                    "image5": "/resources/compare/718/Common/1.webp",
+                    "image6": "/resources/compare/718/Common/2.webp"
+                }
+            },
+            "Yellow": {
+                "Name": "Racing Yellow",
+                "Main": "/resources/compare/718/Racing_Yellow/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/718/Racing_Yellow/1.webp",
+                    "image2": "/resources/compare/718/Racing_Yellow/2.webp",
+                    "image3": "/resources/compare/718/Racing_Yellow/3.webp",
+                    "image4": "/resources/compare/718/Racing_Yellow/4.webp",
+                    "image5": "/resources/compare/718/Common/1.webp",
+                    "image6": "/resources/compare/718/Common/2.webp"
+                }
+            }
         },
         {
             "ID": "002",
-            "Racing_Yellow": "Yellow",
-            "Aventurine_Green_Metallic": "Green",
-            "Carmine_Red": "Red",
-            "Chalk": "Chalk",
-            "Common": "Common"
+            "Default": {
+                "Name": "Racing Yellow",
+                "Main": "/resources/compare/911/Racing_Yellow/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/911/Racing_Yellow/1.webp",
+                    "image2": "/resources/compare/911/Racing_Yellow/2.webp",
+                    "image3": "/resources/compare/911/Racing_Yellow/3.webp",
+                    "image4": "/resources/compare/911/Racing_Yellow/4.webp",
+                    "image5": "/resources/compare/911/Common/1.webp",
+                    "image6": "/resources/compare/911/Common/2.webp"
+                }
+            },
+            "Green": {
+                "Name": "Aventurine Green Metallic",
+                "Main": "/resources/compare/911/Aventurine_Green_Metallic/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/911/Aventurine_Green_Metallic/1.webp",
+                    "image2": "/resources/compare/911/Aventurine_Green_Metallic/2.webp",
+                    "image3": "/resources/compare/911/Aventurine_Green_Metallic/3.webp",
+                    "image4": "/resources/compare/911/Aventurine_Green_Metallic/4.webp",
+                    "image5": "/resources/compare/911/Common/1.webp",
+                    "image6": "/resources/compare/911/Common/2.webp"
+                }
+            },
+            "Red": {
+                "Name": "Carmine Red",
+                "Main": "/resources/compare/911/Carmine_Red/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/911/Carmine_Red/1.webp",
+                    "image2": "/resources/compare/911/Carmine_Red/2.webp",
+                    "image3": "/resources/compare/911/Carmine_Red/3.webp",
+                    "image4": "/resources/compare/911/Carmine_Red/4.webp",
+                    "image5": "/resources/compare/911/Common/1.webp",
+                    "image6": "/resources/compare/911/Common/2.webp"
+                }
+            },
+            "Chalk": {
+                "Name": "Chalk",
+                "Main": "/resources/compare/911/Chalk/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/911/Chalk/1.webp",
+                    "image2": "/resources/compare/911/Chalk/2.webp",
+                    "image3": "/resources/compare/911/Chalk/3.webp",
+                    "image4": "/resources/compare/911/Chalk/4.webp",
+                    "image5": "/resources/compare/911/Common/1.webp",
+                    "image6": "/resources/compare/911/Common/2.webp"
+                }
+            }
         },
         {
             "ID": "003",
-            "Carrara_White_Metallic": "White",
-            "Frozen_Berry_Metallic": "Berry",
-            "Gentian_Blue_Metallic": "Blue",
-            "Jet_Black_Metallic": "Black",
-            "Common": "Common"
+            "Default": {
+                "Name": "Carrara White Metallic",
+                "Main": "/resources/compare/Taycan/Carrara_White_Metallic/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/Taycan/Carrara_White_Metallic/1.webp",
+                    "image2": "/resources/compare/Taycan/Carrara_White_Metallic/2.webp",
+                    "image3": "/resources/compare/Taycan/Carrara_White_Metallic/3.webp",
+                    "image4": "/resources/compare/Taycan/Carrara_White_Metallic/4.webp",
+                    "image5": "/resources/compare/Taycan/Jet_Black_Metallic/1.webp",
+                    "image6": "/resources/compare/Taycan/Jet_Black_Metallic/2.webp"
+                }
+            },
+            "Berry": {
+                "Name": "Frozen Berry Metallic",
+                "Main": "/resources/compare/Taycan/Frozen_Berry_Metallic/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/Taycan/Frozen_Berry_Metallic/1.webp",
+                    "image2": "/resources/compare/Taycan/Frozen_Berry_Metallic/2.webp",
+                    "image3": "/resources/compare/Taycan/Frozen_Berry_Metallic/3.webp",
+                    "image4": "/resources/compare/Taycan/Frozen_Berry_Metallic/4.webp",
+                    "image5": "/resources/compare/Taycan/Jet_Black_Metallic/1.webp",
+                    "image6": "/resources/compare/Taycan/Jet_Black_Metallic/2.webp"
+                }
+            },
+            "Blue2": {
+                "Name": "Frozen Blue Metallic",
+                "Main": "/resources/compare/Taycan/Frozen_Blue_Metallic/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/Taycan/Frozen_Blue_Metallic/1.webp",
+                    "image2": "/resources/compare/Taycan/Frozen_Blue_Metallic/2.webp",
+                    "image3": "/resources/compare/Taycan/Frozen_Blue_Metallic/3.webp",
+                    "image4": "/resources/compare/Taycan/Frozen_Blue_Metallic/4.webp",
+                    "image5": "/resources/compare/Taycan/Jet_Black_Metallic/1.webp",
+                    "image6": "/resources/compare/Taycan/Jet_Black_Metallic/2.webp"
+                }
+            },
+            "Black": {
+                "Name": "Jet Black Metallic",
+                "Main": "/resources/compare/Taycan/Jet_Black_Metallic/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/Taycan/Jet_Black_Metallic/1.webp",
+                    "image2": "/resources/compare/Taycan/Jet_Black_Metallic/2.webp",
+                    "image3": "/resources/compare/Taycan/Jet_Black_Metallic/3.webp",
+                    "image4": "/resources/compare/Taycan/Jet_Black_Metallic/4.webp",
+                    "image5": "/resources/compare/Taycan/Jet_Black_Metallic/1.webp",
+                    "image6": "/resources/compare/Taycan/Jet_Black_Metallic/2.webp"
+                }
+            }
         },
         {
             "ID": "004",
-            "Carmine_Red": "Red",
-            "Carrara_White_Metallic": "White",
-            "Jet_Black_Metallic": "Black",
-            "Night_Blue_Metallic": "Blue",
-            "Common": "Common"
+            "Default": {
+                "Name": "Carmine Red",
+                "Main": "/resources/compare/Panamera/Carmine_Red/main.webp",
+                "Images": {
+                    "image1": "ublic/resources/compare/Panamera/Carmine_Red/1.webp",
+                    "image2": "/resources/compare/Panamera/Carmine_Red/2.webp",
+                    "image3": "/resources/compare/Panamera/Carmine_Red/3.webp",
+                    "image4": "/resources/compare/Panamera/Carmine_Red/4.webp",
+                    "image5": "/resources/compare/Panamera/Common/1.webp",
+                    "image6": "/resources/compare/Panamera/Common/2.webp"
+                }
+            },
+            "White": {
+                "Name": "Carrara White Metallic",
+                "Main": "/resources/compare/Panamera/Carrara_White_Metallic/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/Panamera/Carrara_White_Metallic/1.webp",
+                    "image2": "/resources/compare/Panamera/Carrara_White_Metallic/2.webp",
+                    "image3": "/resources/compare/Panamera/Carrara_White_Metallic/3.webp",
+                    "image4": "/resources/compare/Panamera/Carrara_White_Metallic/4.webp",
+                    "image5": "/resources/compare/Panamera/Common/1.webp",
+                    "image6": "/resources/compare/Panamera/Common/2.webp"
+                }
+            },
+            "Black": {
+                "Name": "Jet Black Metallic",
+                "Main": "/resources/compare/Panamera/Jet_Black_Metallic/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/Panamera/Jet_Black_Metallic/1.webp",
+                    "image2": "/resources/compare/Panamera/Jet_Black_Metallic/2.webp",
+                    "image3": "/resources/compare/Panamera/Jet_Black_Metallic/3.webp",
+                    "image4": "/resources/compare/Panamera/Jet_Black_Metallic/4.webp",
+                    "image5": "/resources/compare/Panamera/Common/1.webp",
+                    "image6": "/resources/compare/Panamera/Common/2.webp"
+                }
+            },
+            "Blue3": {
+                "Name": "Night Blue Metallic",
+                "Main": "/resources/compare/Panamera/Night_Blue_Metallic/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/Panamera/Night_Blue_Metallic/1.webp",
+                    "image2": "/resources/compare/Panamera/Night_Blue_Metallic/2.webp",
+                    "image3": "/resources/compare/Panamera/Night_Blue_Metallic/3.webp",
+                    "image4": "/resources/compare/Panamera/Night_Blue_Metallic/4.webp",
+                    "image5": "/resources/compare/Panamera/Common/1.webp",
+                    "image6": "/resources/compare/Panamera/Common/2.webp"
+                }
+            }
         },
         {
             "ID": "005",
-            "Dolomite_Silver_Metallic": "Arctic",
-            "Gentian_Blue_Metallic": "Blue",
-            "Jet_Black_Metallic": "Black",
-            "Papaya_Metallic": "Orange",
-            "Common": "Common"
+            "Default": {
+                "Name": "Dolomite Silver Metallic",
+                "Main": "/resources/compare/Macan/Dolomite_Silver_Metallic/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/Macan/Dolomite_Silver_Metallic/1.webp",
+                    "image2": "/resources/compare/Macan/Dolomite_Silver_Metallic/2.webp",
+                    "image3": "/resources/compare/Macan/Dolomite_Silver_Metallic/3.webp",
+                    "image4": "/resources/compare/Macan/Dolomite_Silver_Metallic/4.webp",
+                    "image5": "/resources/compare/Macan/Common/1.webp",
+                    "image6": "/resources/compare/Macan/Common/2.webp"
+                }
+            },
+            "Blue1": {
+                "Name": "Gentian Blue Metallic",
+                "Main": "/resources/compare/Macan/Gentian_Blue_Metallic/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/Macan/Gentian_Blue_Metallic/1.webp",
+                    "image2": "/resources/compare/Macan/Gentian_Blue_Metallic/2.webp",
+                    "image3": "/resources/compare/Macan/Gentian_Blue_Metallic/3.webp",
+                    "image4": "/resources/compare/Macan/Gentian_Blue_Metallic/4.webp",
+                    "image5": "/resources/compare/Macan/Common/1.webp",
+                    "image6": "/resources/compare/Macan/Common/2.webp"
+                }
+            },
+            "Black": {
+                "Name": "Jet Black Metallic",
+                "Main": "/resources/compare/Macan/Jet_Black_Metallic/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/Macan/Jet_Black_Metallic/1.webp",
+                    "image2": "/resources/compare/Macan/Jet_Black_Metallic/2.webp",
+                    "image3": "/resources/compare/Macan/Jet_Black_Metallic/3.webp",
+                    "image4": "/resources/compare/Macan/Jet_Black_Metallic/4.webp",
+                    "image5": "/resources/compare/Macan/Common/1.webp",
+                    "image6": "/resources/compare/Macan/Common/2.webp"
+                }
+            },
+            "Orange": {
+                "Name": "Papaya Metallic",
+                "Main": "/resources/compare/Macan/Papaya_Metallic/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/Macan/Papaya_Metallic/1.webp",
+                    "image2": "/resources/compare/Macan/Papaya_Metallic/2.webp",
+                    "image3": "/resources/compare/Macan/Papaya_Metallic/3.webp",
+                    "image4": "/resources/compare/Macan/Papaya_Metallic/4.webp",
+                    "image5": "/resources/compare/Macan/Common/1.webp",
+                    "image6": "/resources/compare/Macan/Common/2.webp"
+                }
+            }
         },
         {
             "ID": "006",
-            "Algarve_Blue_Metallic": "Blue",
-            "Black": "Grey",
-            "Arctic_Grey": "Chalk",
-            "Chromite_Black_Metallic": "Black",
-            "Common": "Common"
+            "Default": {
+                "Name": "Arctic Grey",
+                "Main": "/resources/compare/Cayenne/Arctic_Grey/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/Cayenne/Arctic_Grey/1.webp",
+                    "image2": "/resources/compare/Cayenne/Arctic_Grey/2.webp",
+                    "image3": "/resources/compare/Cayenne/Arctic_Grey/3.webp",
+                    "image4": "/resources/compare/Cayenne/Arctic_Grey/4.webp",
+                    "image5": "/resources/compare/Cayenne/Common/1.webp",
+                    "image6": "/resources/compare/Cayenne/Common/2.webp"
+                }
+            },
+            "Blue4": {
+                "Name": "Algarve Blue Metallic",
+                "Main": "/resources/compare/Cayenne/Algarve_Blue_Metallic/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/Cayenne/Algarve_Blue_Metallic/1.webp",
+                    "image2": "/resources/compare/Cayenne/Algarve_Blue_Metallic/2.webp",
+                    "image3": "/resources/compare/Cayenne/Algarve_Blue_Metallic/3.webp",
+                    "image4": "/resources/compare/Cayenne/Algarve_Blue_Metallic/4.webp",
+                    "image5": "/resources/compare/Cayenne/Common/1.webp",
+                    "image6": "/resources/compare/Cayenne/Common/2.webp"
+                }
+            },
+            "Chalk": {
+                "Name": "Chalk",
+                "Main": "/resources/compare/Cayenne/Chalk/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/Cayenne/Chalk/1.webp",
+                    "image2": "/resources/compare/Cayenne/Chalk/2.webp",
+                    "image3": "/resources/compare/Cayenne/Chalk/3.webp",
+                    "image4": "/resources/compare/Cayenne/Chalk/4.webp",
+                    "image5": "/resources/compare/Cayenne/Common/1.webp",
+                    "image6": "/resources/compare/Cayenne/Common/2.webp"
+                }
+            },
+            "Black": {
+                "Name": "Chromite Black Metallic",
+                "Main": "/resources/compare/Cayenne/Chromite_Black_Metallic/main.webp",
+                "Images": {
+                    "image1": "/resources/compare/Cayenne/Chromite_Black_Metallic/1.webp",
+                    "image2": "/resources/compare/Cayenne/Chromite_Black_Metallic/2.webp",
+                    "image3": "/resources/compare/Cayenne/Chromite_Black_Metallic/3.webp",
+                    "image4": "/resources/compare/Cayenne/Chromite_Black_Metallic/4.webp",
+                    "image5": "/resources/compare/Cayenne/Common/1.webp",
+                    "image6": "/resources/compare/Cayenne/Common/2.webp"
+                }
+            }
         }
     ]
 }
