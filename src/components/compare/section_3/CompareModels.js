@@ -8,11 +8,13 @@ import ButtonFixedBar from './01_models/ButtonFixedBar'
 import Container from './01_models/Container'
 import Overview from './02_overview/Overview'
 import Design from './03_design/Design'
+import ColorsDefault from '../../../pages/compare/colors-default.json'
 
 const Divider = styled.hr`${tw`w-screen border border-slate-200 my-4`}`
 
 const CompareModels = ({ onClick }) => {
     const sectionData = Data.ModelsData
+    const defaultData = ColorsDefault.DefaultColors
     const colorsData = Color.Colors
     const compareState = useSelector((state) => state.compare);
     const compareData = compareState.compare
@@ -20,6 +22,8 @@ const CompareModels = ({ onClick }) => {
     const Model2 = sectionData.find((model) => model.ID === compareData[0].id);
     const color1 = colorsData.find((color) => color.ID === compareData[1].id);
     const color2 = colorsData.find((color) => color.ID === compareData[0].id);
+    const DefaultModel1 = defaultData.find((model) => model.ID === compareData[1].id);
+    const DefaultModel2 = defaultData.find((model) => model.ID === compareData[0].id);
 
     return (
         <div>
@@ -28,7 +32,7 @@ const CompareModels = ({ onClick }) => {
             <ButtonFixedBar />
             <Divider />
             <Overview Model1={Model1} Model2={Model2} />
-            <Design color1={color1} color2={color2} />
+            <Design color1={color1} color2={color2} default1={DefaultModel1} default2={DefaultModel2} />
         </div>
     )
 }

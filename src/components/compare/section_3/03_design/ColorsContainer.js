@@ -1,19 +1,29 @@
 import React from 'react'
 import Color from './Color'
-const ColorsContainer = ({ color }) => {
+import tw from 'twin.macro'
+import styled from 'styled-components/macro'
 
+const Container = styled.div`${tw`flex space-x-2 mt-4 overflow-x-hidden mx-11`}`
+const SubContainer = styled.div`${tw`flex-none`}`
+
+const ColorsContainer = ({ color, onClick }) => {
     const carsColors = {
-        "001": [Grey, Black, Blue1, Yellow],
-        "002": [Yellow, Green, Red, Chalk],
-        "003": [White, Berry, Blue2, Black],
-        "004": [Red, White, Black, Blue3],
-        "005": [Silver, Blue1, Black, Orange],
-        "006": [Grey, Blue4, Chalk, Black],
+        "001": ["Grey", "Black", "Yellow", "Blue1"],
+        "002": ["Yellow", "Green", "Red", "White"],
+        "003": ["White", "Berry", "Blue2", "Black"],
+        "004": ["Red", "Blue3", "White", "Black"],
+        "005": ["Silver", "Blue1", "Black", "Orange"],
+        "006": ["Grey", "Blue4", "White", "Black"],
     }
+    const selectedColors = carsColors[color.ID];
     return (
-        <div>
-            <Color />
-        </div>
+        <Container>
+            {selectedColors && selectedColors.map((color, index) => (
+                <SubContainer key={index}>
+                    <Color color={color} onClick={onClick} />
+                </SubContainer>
+            ))}
+        </Container>
     )
 }
 

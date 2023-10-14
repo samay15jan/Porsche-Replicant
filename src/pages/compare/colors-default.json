@@ -1,0 +1,82 @@
+{
+    "DefaultColors": [
+        {
+            "ID": "001",
+            "Name": "Arctic Grey",
+            "Main": "/resources/compare/718/Arctic_Grey/main.webp",
+            "Images": {
+                "image1": "/resources/compare/718/Arctic_Grey/1.webp",
+                "image2": "/resources/compare/718/Arctic_Grey/2.webp",
+                "image3": "/resources/compare/718/Arctic_Grey/3.webp",
+                "image4": "/resources/compare/718/Arctic_Grey/4.webp",
+                "image5": "/resources/compare/718/Common/1.webp",
+                "image6": "/resources/compare/718/Common/2.webp"
+            }
+        },
+        {
+            "ID": "002",
+            "Name": "Racing Yellow",
+            "Main": "/resources/compare/911/Racing_Yellow/main.webp",
+            "Images": {
+                "image1": "/resources/compare/911/Racing_Yellow/1.webp",
+                "image2": "/resources/compare/911/Racing_Yellow/2.webp",
+                "image3": "/resources/compare/911/Racing_Yellow/3.webp",
+                "image4": "/resources/compare/911/Racing_Yellow/4.webp",
+                "image5": "/resources/compare/911/Common/1.webp",
+                "image6": "/resources/compare/911/Common/2.webp"
+            }
+        },
+        {
+            "ID": "003",
+            "Name": "Carrara White Metallic",
+            "Main": "/resources/compare/Taycan/Carrara_White_Metallic/main.webp",
+            "Images": {
+                "image1": "/resources/compare/Taycan/Carrara_White_Metallic/1.webp",
+                "image2": "/resources/compare/Taycan/Carrara_White_Metallic/2.webp",
+                "image3": "/resources/compare/Taycan/Carrara_White_Metallic/3.webp",
+                "image4": "/resources/compare/Taycan/Carrara_White_Metallic/4.webp",
+                "image5": "/resources/compare/Taycan/Common/1.webp",
+                "image6": "/resources/compare/Taycan/Common/2.webp"
+            }
+        },
+        {
+            "ID": "004",
+            "Name": "Carmine Red",
+            "Main": "/resources/compare/Panamera/Carmine_Red/main.webp",
+            "Images": {
+                "image1": "/resources/compare/Panamera/Carmine_Red/1.webp",
+                "image2": "/resources/compare/Panamera/Carmine_Red/2.webp",
+                "image3": "/resources/compare/Panamera/Carmine_Red/3.webp",
+                "image4": "/resources/compare/Panamera/Carmine_Red/4.webp",
+                "image5": "/resources/compare/Panamera/Common/1.webp",
+                "image6": "/resources/compare/Panamera/Common/2.webp"
+            }
+        },
+        {
+            "ID": "005",
+            "Name": "Dolomite Silver Metallic",
+            "Main": "/resources/compare/Macan/Dolomite_Silver_Metallic/main.webp",
+            "Images": {
+                "image1": "/resources/compare/Macan/Dolomite_Silver_Metallic/1.webp",
+                "image2": "/resources/compare/Macan/Dolomite_Silver_Metallic/2.webp",
+                "image3": "/resources/compare/Macan/Dolomite_Silver_Metallic/3.webp",
+                "image4": "/resources/compare/Macan/Dolomite_Silver_Metallic/4.webp",
+                "image5": "/resources/compare/Macan/Common/1.webp",
+                "image6": "/resources/compare/Macan/Common/2.webp"
+            }
+        },
+        {
+            "ID": "006",
+            "Name": "Arctic Grey",
+            "Main": "/resources/compare/Cayenne/Arctic_Grey/main.webp",
+            "Images": {
+                "image1": "/resources/compare/Cayenne/Arctic_Grey/1.webp",
+                "image2": "/resources/compare/Cayenne/Arctic_Grey/2.webp",
+                "image3": "/resources/compare/Cayenne/Arctic_Grey/3.webp",
+                "image4": "/resources/compare/Cayenne/Arctic_Grey/4.webp",
+                "image5": "/resources/compare/Cayenne/Common/1.webp",
+                "image6": "/resources/compare/Cayenne/Common/2.webp"
+            }
+        }
+    ]
+}
