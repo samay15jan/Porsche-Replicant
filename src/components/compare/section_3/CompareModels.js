@@ -10,6 +10,8 @@ import Container from './01_models/Container'
 import Overview from './02_overview/Overview'
 import Design from './03_design/Design'
 import Details from './04_details/Details'
+import Sound from './05_sound/Sound'
+import Next from './06_next_step/Next'
 
 const Divider = styled.hr`${tw`w-screen border border-slate-200 my-4`}`
 
@@ -35,6 +37,8 @@ const CompareModels = ({ onClick }) => {
             <Overview Model1={Model1} Model2={Model2} />
             <Design color1={color1} color2={color2} default1={DefaultModel1} default2={DefaultModel2} />
             <Details Model1={Model1} Model2={Model2} />
+            <Sound Model1={Model1} Model2={Model2} />
+            <Next Model1={Model1} Model2={Model2} />
         </div>
     )
 }
