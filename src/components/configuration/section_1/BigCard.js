@@ -7,8 +7,7 @@ const Container = styled.div`${tw`px-8`}`
 const Image = styled.img`${tw`w-[950px] rounded-2xl`}`
 
 const BigCard = ({ DefaultImage, customImage }) => {
-    const custom = customImage == "" ? customImage.image : "" 
-    const imageUrl = custom | DefaultImage
+    const imageUrl = customImage || DefaultImage
 
     return (
         <Container>

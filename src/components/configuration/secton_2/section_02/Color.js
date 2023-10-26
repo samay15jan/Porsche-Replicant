@@ -20,7 +20,7 @@ const iconColor = {
     Orange: "bg-[#d34624]",
 }
 
-const Color = ({ color, onClick }) => {
+const Colors = ({ color, onClick }) => {
     return (
         <div>
             {iconColor[color] && <Icon className={iconColor[color]} onClick={() => onClick(color)} />}
@@ -28,4 +28,4 @@ const Color = ({ color, onClick }) => {
     )
 }
 
-export default Color
+export default Colors

@@ -3,7 +3,6 @@ import { createSlice } from '@reduxjs/toolkit'
 const initialState = {
     ModelID: [],
     SelectedColor: [],
-    BigContainerImage: [],
 }
 
 export const configSlice = createSlice({
@@ -24,17 +23,9 @@ export const configSlice = createSlice({
                 SelectedColor: [{ color: color }, ...state.SelectedColor]
             }
         },
-        BigContainerImage: (state, action) => {
-            const image = action.payload
-            return {
-                ...state,
-                BigContainerImage: [{ image: image }, ...state.BigContainerImage]
-            }
-        },
-
     }
 })
 
-export const { ModelID, SelectedColor, BigContainerImage } = configSlice.actions
+export const { ModelID, SelectedColor } = configSlice.actions
 
 export default configSlice.reducer

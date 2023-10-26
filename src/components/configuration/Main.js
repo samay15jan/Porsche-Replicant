@@ -17,7 +17,7 @@ const Main = () => {
             <Text>{ModelData.Name}</Text>
             <SubContainer>
                 <Design ID={ID} />
-                <FixedContainer data={ModelData} />
+                <FixedContainer data={ModelData} ID={ID} />
             </SubContainer>
         </div>
     )
