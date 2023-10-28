@@ -11,7 +11,7 @@ const Container = styled.div`${tw`w-screen`}`
 
 const Design = ({ ID }) => {
 
-    // Getting Default Images 
+    // Getting Default Images
     const DefaultModelData = ColorsDefault.DefaultColors
     const DefaultModel = DefaultModelData.find((model) => model.ID === ID);
     // Adding customImage for BigCard
@@ -19,10 +19,14 @@ const Design = ({ ID }) => {
     const handleClick = (imgPath) => {
         setCustomImage(imgPath)
     }
-    // Getting customColor 
+    // Getting customColor
     const colors = Color.Colors
     const color = colors.find((color) => color.ID === ID);
-    const customColor = useSelector((state) => state.SelectedColor)
+    const reduxColor = useSelector((state) => state.config.SelectedColor)
+    const customColor = reduxColor[0]?.color
+    useEffect(() => {
+        setCustomImage(color[customColor]?.Images.image1)
+    }, [reduxColor])
     return (
         <Container>
             <BigCard
