@@ -9,7 +9,7 @@ const Text = styled.div`${tw`text-2xl font-bold ml-10 my-10`}`
 const SubContainer = styled.div`${tw`grid grid-cols-2`}`
 
 const Main = () => {
-    const ID = "001"
+    const ID = "003"
     const ModelData = Data.ModelsData.find(model => model.ID === ID)
 
     return (
