@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import tw from 'twin.macro'
 import styled from 'styled-components/macro'
-import InteriorColor from './InteriorColor'
+import Interior from './Interior'
 import StockImage from '../../../../pages/configuration/stock.jpg'
 import { Button } from '@mui/material'
 import { Add, Remove } from '@mui/icons-material'
@@ -12,7 +12,7 @@ const Text2 = styled.div`${tw`mx-2 text-lg font-medium`}`
 const Flex = styled.div`${tw`flex justify-between mb-2`}`
 const Icon = styled.img`${tw`w-5 border border-black`}`
 
-const InteriorColorContainer = ({ ID, onClick }) => {
+const InteriorContainer = ({ ID, onClick }) => {
     const [expand, setExpand] = useState(false)
 
     return (
@@ -34,9 +34,9 @@ const InteriorColorContainer = ({ ID, onClick }) => {
                 </Flex>
                </>
              ) : (
-                 <InteriorColor onClick={onClick} />
+                 <Interior onClick={onClick} />
             )}
         </Container>
       )}
 
-export default InteriorColorContainer
+export default InteriorContainer

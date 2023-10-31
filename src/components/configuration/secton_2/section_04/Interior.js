@@ -9,7 +9,7 @@ const Image = styled.img`${tw`w-1/2 hover:border-2 hover:border-black`}`
 const Text = styled.div`${tw`mx-2 text-lg font-medium`}`
 const Price = styled.div`${tw`mx-2 text-lg font-medium text-slate-200`}`
 
-const InteriorColor = () => {
+const Interior = () => {
     return (
         <Container>
           <SubContainer>
@@ -27,4 +27,4 @@ const InteriorColor = () => {
         </Container>
 )}
 
-export default InteriorColor
+export default Interior
