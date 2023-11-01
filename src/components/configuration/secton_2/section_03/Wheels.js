@@ -22,15 +22,10 @@ const Wheels = () => {
     const [checked1, setChecked1] = useState(true);
     const [checked2, setChecked2] = useState(false);
     const [price, setPrice] = useState("0");
-    const handleClick1 = () => {
+    const handleClick = () => {
         setChecked1(!checked1)
         setChecked2(!checked2)
     }
-    const handleClick2 = () => {
-        setChecked1(!checked1)
-        setChecked2(!checked2)
-    }
-
     const dispatch = useDispatch()
     useEffect(() => {
       checked1 ? dispatch(SelectedWheel({wheel:'20" Satin Silver Wheels', price: 0}))
@@ -48,7 +43,7 @@ const Wheels = () => {
             <Price>Included</Price>
             <Checkbox
               checked={checked1}
-              onClick={handleClick1}
+              onClick={handleClick}
               inputProps={{ 'aria-label': 'controlled' }}
               color="default"
             />
@@ -62,7 +57,7 @@ const Wheels = () => {
             <Price>$15,640</Price>
             <Checkbox
               checked={checked2}
-              onClick={handleClick2}
+              onClick={handleClick}
               inputProps={{ 'aria-label': 'controlled' }}
               color="default"
             />

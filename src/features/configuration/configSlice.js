@@ -6,7 +6,6 @@ const initialState = {
     SelectedWheel: [],
     SelectedInterior: [],
     SelectedOptions: [],
-    SelectedTechnology: [],
 }
 
 export const configSlice = createSlice({
@@ -37,28 +36,23 @@ export const configSlice = createSlice({
         },
         SelectedInterior: (state, action) => {
             const interior = action.payload
+            const price = action.payload
             return {
                 ...state,
-                SelectedInterior: [{ interior: interior }, ...state.SelectedInterior]
+                SelectedInterior: [{ interior: interior, price: price }, ...state.SelectedInterior]
             }
         },
         SelectedOptions: (state, action) => {
-            const options = action.payload
+            const option = action.payload
+            const price = action.payload
             return {
                 ...state,
-                SelectedOptions: [{ options: options }, ...state.SelectedOptions]
-            }
-        },
-        SelectedTechnology: (state, action) => {
-            const technology = action.payload
-            return {
-                ...state,
-                SelectedTechnology: [{ technology: technology }, ...state.SelectedTechnology]
-            }
-        },
-    }
+                SelectedInterior: [{ option: option, price: price }, ...state.SelectedInterior]
+              }
+        }
+      }
 })
 
-export const { ModelID, SelectedColor, SelectedWheel, SelectedInterior, SelectedOptions, SelectedTechnology } = configSlice.actions
+export const { ModelID, SelectedColor, SelectedWheel, SelectedInterior, SelectedOptions } = configSlice.actions
 
 export default configSlice.reducer

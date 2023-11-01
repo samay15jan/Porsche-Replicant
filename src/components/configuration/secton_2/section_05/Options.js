@@ -1,30 +1,34 @@
 import React from 'react'
 import tw from 'twin.macro'
 import styled from 'styled-components/macro'
+import { useDispatch } from 'react-redux';
+import { SelectedWheel } from '../../../../features/configuration/configSlice'
 import StockImage from '../../../../pages/configuration/stock.jpg'
+import Checkbox from '@mui/material/Checkbox';
+import SubOptions from './SubOptions'
 
-const Container = styled.div`${tw`flex w-auto`}`
-const SubContainer = styled.div`${tw``}`
-const Image = styled.img`${tw`w-1/2 hover:border-2 hover:border-black`}`
-const Text = styled.div`${tw`mx-2 text-lg font-medium`}`
-const Price = styled.div`${tw`mx-2 text-lg font-medium text-slate-200`}`
-
+const Container = styled.div`${tw`w-auto`}`
 
 const Options = () => {
+
+    const AvailableOptions = {
+      "Porsche Active Suspension" : '1790',
+      "Extended Range Fuel Tank" : '140',
+      "Power Steering Plus" : '280',
+      "Lane Change Assist" : '700',
+      "Adaptive Cruise Control" : '1670',
+      "Porsche Entry & Drive" : '800',
+      " Porsche Connect" : '2320',
+      "Voice Control" : '100',
+      "Burmester® Sound System" : '4690'
+    }
+
     return (
         <Container>
-          <SubContainer>
-            <Image src={StockImage}/>
-            <Text>20" Forged Aluminum Wheels</Text>
-            <Text>20" Forged Aluminum Wheels</Text>
-            <Price>Included</Price>
-          </SubContainer>
-          <SubContainer>
-            <Image src={StockImage}/>
-            <Text>20" 718 Cayman GT4 RS Forged Magnesium Wheels</Text>
-            <Text>20" Forged Aluminum Wheels</Text>
-            <Price>$15,640</Price>
-          </SubContainer>
+          {Object.keys(AvailableOptions).map((optionName, index)=>{
+            return (
+              <SubOptions key={index} Option={optionName} Price={AvailableOptions[optionName]}/>
+            )})}
         </Container>
 )}
 
