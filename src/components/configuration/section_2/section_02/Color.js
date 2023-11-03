@@ -2,7 +2,7 @@ import React from 'react'
 import tw from 'twin.macro'
 import styled from 'styled-components/macro'
 
-const Icon = styled.div`${tw`w-56 h-14 m-6 rounded-lg border-2 border-black`}`
+const Icon = styled.div`${tw`w-56 h-10 mx-6 my-4 rounded-lg border-2 border-black`}`
 
 const iconColor = {
     Grey: "bg-[#6a6c70]",

@@ -9,9 +9,9 @@ import { useSelector } from 'react-redux';
 
 const Container = styled.div`${tw`mt-4 mr-10 w-[294px] bg-white rounded-xl p-2`}`
 const Text1 = styled.div`${tw`text-xl font-bold my-2 `}`
-const Text2 = styled.div`${tw`mx-2 text-lg font-medium`}`
+const Text2 = styled.div`${tw`mx-2 text-sm font-medium`}`
 const Flex = styled.div`${tw`flex justify-between mb-2`}`
-const Icon = styled.div`${tw`w-12 h-8 rounded-sm border border-black`}`
+const Icon = styled.div`${tw`w-14 h-5 ml-2 rounded-sm border border-black`}`
 
 const iconColor = {
     Grey: "bg-[#6a6c70]",
