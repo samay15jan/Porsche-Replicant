@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Button from './Button';
 
-const Cards = ({ src_logo, src_bg, text, price, name }) => {
+const Cards = ({ id, src_logo, src_bg, text, price, name }) => {
     const [imgHovered, setImgHovered] = useState(false)
     const handleMouseEnter = () => {
         setImgHovered(true)
@@ -20,7 +20,9 @@ const Cards = ({ src_logo, src_bg, text, price, name }) => {
                 <div className='absolute rounded-3xl text-lg hover:p-2 px-4 bottom-0 bg-gradient-to-t h-56 text-white font-bold from-zinc-900 to-transparent w-full'>
                     <div className='font-bold px-4'>{text}</div>
                     <div className='mb-4 text-sm font-medium px-4'>{price}</div>
-                    <div className='px-4'><Button name={name} /></div>
+                    <div className='px-4'>
+                      <Button name={name} id={id}/>
+                    </div>
                 </div>
                 <div className='rounded-full'>
                     <div className='absolute top-0 left-0 right-0 bottom-0 border-8 border-solid ring-8  ring-white border-white rounded-3xl'></div>

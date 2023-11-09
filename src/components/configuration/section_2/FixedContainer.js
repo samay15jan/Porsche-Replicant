@@ -8,7 +8,7 @@ import InteriorContainer from './section_04/InteriorContainer'
 import OptionsContainer from './section_05/OptionsContainer'
 import TechnologyContainer from './section_06/TechnologyContainer'
 
-const RightContainer = styled.div`${tw`absolute right-0`}`
+const RightContainer = styled.div`${tw`overflow-y-auto absolute right-0`}`
 const Components = styled.div`${tw`mb-4`}`
 
 const FixedContainer = ({ ID, data }) => {

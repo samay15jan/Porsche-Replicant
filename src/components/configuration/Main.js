@@ -4,12 +4,15 @@ import styled from 'styled-components'
 import Data from '../../pages/compare/modelsData.json'
 import Design from './section_1/Design'
 import FixedContainer from './section_2/FixedContainer'
+import { useSelector } from 'react-redux'
 
 const Text = styled.div`${tw`text-2xl font-bold ml-10 my-10`}`
 const SubContainer = styled.div`${tw`grid grid-cols-2`}`
 
 const Main = () => {
-    const ID = "002"
+    const reduxState = useSelector((state) => state.home);
+    const reduxData = reduxState.Configuration;
+    const ID = reduxData?.[0].id
     const ModelData = Data.ModelsData.find(model => model.ID === ID)
 
     return (

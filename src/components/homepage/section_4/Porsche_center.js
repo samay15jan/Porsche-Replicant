@@ -10,12 +10,12 @@ const Porsche_center = ({ img }) => {
             <div className='flex m-32 h-full bg-[#0e0e12] text-white rounded-xl'>
                 <div className='p-16 w-[500px]'>
                     <div className='text-2xl pb-2 font-extrabold'>
-                        Find Your Porsche Center
+                        Porsche Model Selection
                     </div>
                     <div>
-                        A Porsche Center, and your dream Porsche vehicle, may be closer than you think. Search our Porsche Center network for the location closest to you.
+                        Experience the essence of Porsche design in model selection. Explore our refined selection for elevated projects with exquisite precision.
                     </div>
-                    <Button text={'Search now.'} />
+                    <Button text={'Search Now'} />
                 </div>
                 <img className='w-[620px] rounded-r-xl' src={img} alt="service" />
             </div>
