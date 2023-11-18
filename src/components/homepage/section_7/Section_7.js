@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../../pages/homepage/Homepage.css'
 import data from '../../../pages/homepage/data.json'
 import Region from './Region'
 import Button from './Button'

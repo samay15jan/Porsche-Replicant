@@ -3,9 +3,9 @@
     "section_1": [
       {
         "Background_image": "/resources/homepage/01_section/background_image.jpg",
-        "logo-small": "/resources/homepage/01_section/logo-small.png",
+        "logo_small": "/resources/homepage/01_section/logo-small.png",
         "streamUrl": "https://videos.porsche.com/id/tv3sehnv/hls.m3u8",
-        "Text": "Fully-jaw-dropping-electric",
+        "Text": "Fully-jaw-dropping-electric.",
         "Button": "The Taycan. Starting at $90,900"
       }
     ],
