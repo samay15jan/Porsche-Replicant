@@ -2,9 +2,21 @@ import React from 'react'
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from 'react-redux'
 import { Configuration } from '../../../features/homepage/homeSlice'
+import tw from 'twin.macro'
+import styled from 'styled-components'
+
+const Container = styled.div`
+  ${tw`absolute z-[400] px-5 lg:px-4`}
+`
+const Button1 = styled.button`
+  ${tw`bg-white text-black justify-center w-80 lg:w-96 text-sm py-2 mb-4 rounded-md`}
+`
+const Button2 = styled.button`
+  ${tw`border-white text-white border justify-center w-80 lg:w-96 text-sm py-2 rounded-md z-[400]`}
+`
 
 const Button = ({ name, id }) => {
-  // Navigate
+  // Navigation
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
@@ -18,10 +30,10 @@ const Button = ({ name, id }) => {
   };
 
   return (
-    <div className='absolute z-[400]'>
-      <button className='bg-white text-black justify-center w-96 text-sm py-3 mb-4 rounded-md ' onClick={navigateRoute1}>{`Build your ${name}`}</button>
-      <button className='border-white text-white border justify-center w-96 text-sm py-3 rounded-md z-[400]' onClick={navigateRoute2}>{`Compare Models`}</button>
-    </div>
+    <Container>
+      <Button1 onClick={navigateRoute1}>{`Build your ${name}`}</Button1>
+      <Button2 onClick={navigateRoute2}>{`Compare Models`}</Button2>
+    </Container>
   )
 }
 

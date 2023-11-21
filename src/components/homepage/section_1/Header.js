@@ -13,7 +13,7 @@ const Container = styled.div`
   ${tw`flex justify-between absolute items-center w-full text-white bg-gradient-to-b from-zinc-900 to-transparent`}
   height: 100px;
   padding: 0 20px;
-  z-index: 100;
+  z-index: 10;
 `
 const Logo = styled(Button)`
   ${tw`w-5 h-8 my-5`}
@@ -26,7 +26,7 @@ const SVG = styled.svg`
 const SmallLogo = styled.img`${tw`w-5`}`
 const Text = styled.div`${tw`text-white mt-1`}`
 
-const Header = () => {
+const Header = ({ onClick }) => {
   const sectionData = data.homepage.section_1[0]
   const navigate = useNavigate();
   const dispatch = useDispatch()
@@ -41,7 +41,7 @@ const Header = () => {
 
   return (
     <Container>
-      <Logo>
+      <Logo onClick={onClick} >
         <MenuIcon className='text-white' />
         {isSmallScreen ? (
           <Text>Menu</Text>

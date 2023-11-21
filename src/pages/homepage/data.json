@@ -40,8 +40,8 @@
         "Logo5": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/macan.min.e38fbf34ed4f00066620901babd99af0.svg",
         "Logo6": "https://cdn.ui.porsche.com/porsche-design-system/model-signatures/cayenne.min.4026ba6b335cc98e10592f900cf731e1.svg",
         "Text1": "The mid-engine sports car for two.",
-        "Text2": "The quintessential, rear-engine sports car.",
-        "Text3": "The pure expression of an electric sports car.",
+        "Text2": "The quintessential sports car.",
+        "Text3": "The expression of an electric sports.",
         "Text4": "The sports car with stylish design.",
         "Text5": "The sports car of compact SUVs.",
         "Text6": "Impressive five seater sports car.",
@@ -116,6 +116,32 @@
     "section_7": [
       {
         "usLogo": "/resources/homepage/07_section/us_logo.jpg"
+      }
+    ],
+    "section_8": [
+      {
+        "ID": "001",
+        "Image": "/resources/homepage/overflow_menu/1.webp"
+      },
+      {
+        "ID": "002",
+        "Image": "/resources/homepage/overflow_menu/2.webp"
+      },
+      {
+        "ID": "003",
+        "Image": "/resources/homepage/overflow_menu/3.webp"
+      },
+      {
+        "ID": "004",
+        "Image": "/resources/homepage/overflow_menu/4.webp"
+      },
+      {
+        "ID": "005",
+        "Image": "/resources/homepage/overflow_menu/5.webp"
+      },
+      {
+        "ID": "006",
+        "Image": "/resources/homepage/overflow_menu/6.webp"
       }
     ]
   }

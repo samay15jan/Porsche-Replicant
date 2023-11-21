@@ -1,15 +1,33 @@
 import React from 'react'
+import styled from 'styled-components'
+import tw from 'twin.macro'
+
+const Container = styled.div`
+  ${tw`p-10 mt-5`}
+`
+const Heading = styled.div`
+  ${tw`text-lg font-bold pb-4`}
+`
+const SubContainer = styled.div`
+  ${tw`flex`}
+`
+const Image = styled.img`
+  ${tw`w-8 h-8 rounded-full mr-2 border`}
+`
+const Text = styled.div`
+  ${tw`hover:text-red-500 ml-2 underline`}
+`
 
 const Region = ({ src }) => {
     return (
-        <div className='p-10 mt-5'>
-            <div className='text-lg font-bold pb-4'>Current Region / Language</div>
-            <div className='flex'>
-                <img className='w-8 h-8 rounded-full mr-2 border' src={src} alt="united states Logo" />
-                <div>United States / English</div>
-                <div className='hover:text-red-500 ml-2 underline'>Change</div>
-            </div>
-        </div>
+        <Container>
+            <Heading>Current Region / Language</Heading>
+            <SubContainer >
+                <Image src={src} alt="united states Logo" />
+                United States / English
+                <Text>Change</Text>
+            </SubContainer>
+        </Container>
     )
 }
 

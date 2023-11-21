@@ -2,10 +2,10 @@ import React from 'react'
 import Header from './Header'
 import Background from './Background'
 
-const Section_1 = () => {
+const Section_1 = ({ onClick }) => {
   return (
     <div>
-      <Header />
+      <Header onClick={onClick} />
       <Background />
     </div>
   )

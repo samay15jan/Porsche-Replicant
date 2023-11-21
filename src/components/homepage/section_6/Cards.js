@@ -1,5 +1,11 @@
 import React, { useState } from 'react'
 import Button from '../section_2/Button';
+import styled from 'styled-components'
+import tw from 'twin.macro'
+
+const Container = styled.div`
+  ${tw`snap-x select-none p-2`}
+`
 
 const Cards = ({ key, src, text }) => {
     const [imgHovered, setImgHovered] = useState(false)
@@ -16,6 +22,8 @@ const Cards = ({ key, src, text }) => {
                 key={key}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
+                onTouchStart={handleMouseEnter}
+                onTouchEnd={handleMouseLeave}
             >
                 <img
                     className={`justify-center rounded-[30px] hover:p-2 hover:w-80 transition-transform ${imgHovered ? 'transform scale-105' : ''}`}
