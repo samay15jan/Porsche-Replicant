@@ -24,8 +24,6 @@ export default function homepage() {
     setIsMenuOpen(false);
   };
 
-
-
   return (
     <div>
       <BlurContainer className={isMenuOpen ? 'h-screen w-screen blur-2xl' : ''}>

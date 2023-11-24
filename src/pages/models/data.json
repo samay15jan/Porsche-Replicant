@@ -1,11 +1,12 @@
 {
     "models": [
         {
+            "id": "001",
             "name": "718 Cayman GT4 RS",
             "image": "/resources/Models/718/trims/1.webp",
             "starting_price": "$ 160,700 *",
             "new": false,
-            "model": "718 Models",
+            "Model": "718",
             "BodyDesign": "Coupe",
             "Transmission": "PDK (Automatic)",
             "Seats": "2",
@@ -13,11 +14,12 @@
             "FuelType": "Gasoline"
         },
         {
+            "id": "002",
             "name": "911 Carrera S Cabriolet",
             "image": "/resources/Models/911/trims/1.webp",
             "starting_price": "$ 243,200 *",
             "new": false,
-            "model": "911 Models",
+            "Model": "911",
             "BodyDesign": "Cabriolet",
             "Transmission": "Manual",
             "Seats": "4 - 5",
@@ -25,11 +27,12 @@
             "FuelType": "Gasoline"
         },
         {
+            "id": "003",
             "name": "Taycan Turbo S",
             "image": "/resources/Models/taycan/trims/2.webp",
             "starting_price": "$ 194,900 *",
             "new": true,
-            "model": "Taycan Models",
+            "Model": "Taycan",
             "BodyDesign": "Sedan",
             "Transmission": "2-speed transmission",
             "Seats": "4 - 5",
@@ -37,11 +40,12 @@
             "FuelType": "Electric"
         },
         {
+            "id": "004",
             "name": "Panamera Turbo S E-Hybrid Sport Turismo",
             "image": "/resources/Models/pananmera/trims/1.webp",
             "starting_price": "$ 200,400 *",
             "new": false,
-            "model": "Panamera Models",
+            "Model": "Panamera",
             "BodyDesign": "Sport Turismo",
             "Transmission": "PDK (Automatic)",
             "Seats": "4 - 5",
@@ -49,11 +53,12 @@
             "FuelType": "Hybrid"
         },
         {
+            "id": "005",
             "name": "Macan S",
             "image": "/resources/Models/macan/trims/1.webp",
             "starting_price": "$ 72,300 *",
             "new": false,
-            "model": "Macan Models",
+            "Model": "Macan",
             "BodyDesign": "SUV",
             "Transmission": "PDK (Automatic)",
             "Seats": "4 - 5",
@@ -61,11 +66,12 @@
             "FuelType": "Gasoline"
         },
         {
+            "id": "006",
             "name": "Cayenne Turbo GT",
             "image": "/resources/Models/cayenne/trims/2.webp",
             "starting_price": "$ 196,300 *",
             "new": true,
-            "model": "Cayenne Models",
+            "Model": "Cayenne",
             "BodyDesign": "SUV",
             "Transmission": "Tiptronic",
             "Seats": "4 - 5",
@@ -73,7 +79,7 @@
             "FuelType": "Gasoline"
         }
     ],
-    "ModelsList": [
+    "Model": [
         "718",
         "911",
         "Taycan",

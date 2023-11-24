@@ -1,8 +1,8 @@
 import React from 'react'
-import data from '../../../pages/homepage/data.json'
+import data from '../../../../pages/homepage/data.json'
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from 'react-redux'
-import { Configuration } from '../../../features/homepage/homeSlice'
+import { Configuration } from '../../../../features/homepage/homeSlice'
 import tw from 'twin.macro'
 import styled from 'styled-components'
 
@@ -26,7 +26,6 @@ const Section_1 = ({ back }) => {
     const dispatch = useDispatch();
 
     const navigateRoute = (id) => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
         dispatch(Configuration(id))
         navigate("/configuration");
     };

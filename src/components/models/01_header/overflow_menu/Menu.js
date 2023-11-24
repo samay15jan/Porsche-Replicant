@@ -28,11 +28,12 @@ const Menu = ({ onClick }) => {
     const navigate = useNavigate();
 
     const navigateRoute1 = () => {
-	window.scrollTo({ top: 0, behavior: 'smooth' });
-        navigate("/models");
+        navigate("/");
     };
     const navigateRoute2 = () => {
-	window.scrollTo({ top: 0, behavior: 'smooth' });
+        navigate("/models");
+    };
+    const navigateRoute3 = () => {
         navigate("/compare");
     };
 
@@ -43,8 +44,9 @@ const Menu = ({ onClick }) => {
             ) : (
                 <>
                     <OverlayContent>
-                        <MenuItem onClick={navigateRoute1}>Models</MenuItem>
-                        <MenuItem onClick={navigateRoute2}>Compare</MenuItem>
+                        <MenuItem onClick={navigateRoute1}>Home</MenuItem>
+                        <MenuItem onClick={navigateRoute2}>Models</MenuItem>
+                        <MenuItem onClick={navigateRoute3}>Compare</MenuItem>
                         <MenuItem onClick={() => setShowModel(!showModel)}>Configuration</MenuItem>
                         <MenuItem onClick={onClick}>Close</MenuItem>
                     </OverlayContent>
