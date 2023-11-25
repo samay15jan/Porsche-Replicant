@@ -10,8 +10,8 @@ import { Add, Remove } from '@mui/icons-material'
 
 const Container = styled.div`${tw`w-screen`}`
 const Heading = styled.div`${tw`flex justify-center text-4xl font-bold p-10 mt-10`}`
-const Text = styled.div`${tw`flex justify-between text-xl font-bold w-auto bg-gray-100 py-2 px-2 mx-72 rounded-lg`}`
-const Divider = styled.hr`${tw`w-auto border border-slate-200 my-4 mx-72`}`
+const Text = styled.div`${tw`flex justify-between text-xl font-bold w-auto bg-gray-100 py-2 px-2 mx-10 lg:mx-72 rounded-lg`}`
+const Divider = styled.hr`${tw`w-auto border border-slate-200 my-4 mx-10 lg:mx-72`}`
 
 const Overview = ({ Model1, Model2 }) => {
     const [showMotor, setShowMotor] = useState(false)

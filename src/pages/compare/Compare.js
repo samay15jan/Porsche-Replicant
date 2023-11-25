@@ -12,8 +12,8 @@ const Container = styled.div`
     ${tw`overflow-x-hidden`}`
 
 const BlurContainer = styled.div`
-    position: relative;
-  `;
+    ${tw`relative`}
+`
 
 const Compare = () => {
     const [overflow, setOverflow] = useState(true)
@@ -36,7 +36,7 @@ const Compare = () => {
             <BlurContainer className={isMenuOpen ? 'h-screen w-screen blur-2xl' : ''}>
                 {overflow ?
                     <>
-                        <div><Header /></div>
+                        <div><Header onClick={openMenu}/></div>
                         <div><Main toggleOverflow={toggleOverflow} /></div>
                         <div><Section_7 /></div>
                     </>

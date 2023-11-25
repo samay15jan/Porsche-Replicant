@@ -7,7 +7,7 @@ import { Button } from '@mui/material'
 import { ArrowBack } from '@mui/icons-material'
 import { useSelector } from 'react-redux';
 
-const Grid = styled.div`${tw`grid grid-cols-3 p-5 bg-slate-100`}`
+const Grid = styled.div`${tw`grid grid-rows-3 lg:grid-cols-3 p-5 bg-slate-100`}`
 
 const ModelsContainer = ({ toggleMenu, selectedCardId, toggleOverflow }) => {
 
@@ -36,7 +36,7 @@ const ModelsContainer = ({ toggleMenu, selectedCardId, toggleOverflow }) => {
                     />
                 )))}
             <Button onClick={toggleOverflow}>Add to comparision {text()}</Button>
-            <Button onClick={toggleMenu}><ArrowBack />Back</Button>
+            <Button onClick={toggleMenu}>Back</Button>
         </Grid>
     )
 }

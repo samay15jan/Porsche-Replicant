@@ -7,9 +7,9 @@ import ColorsContainer from './ColorsContainer'
 
 const Container = styled.div`${tw`w-screen`}`
 const Heading = styled.div`${tw`flex justify-center text-4xl font-bold p-10`}`
-const Grid = styled.div`${tw`grid grid-cols-2 justify-between mx-44`}`
-const Text1 = styled.div`${tw`text-sm ml-8 mt-4 mb-2`}`
-const Text2 = styled.div`${tw`text-lg ml-8 mt-2`}`
+const Grid = styled.div`${tw`grid grid-cols-2 justify-between mx-2 lg:mx-44`}`
+const Text1 = styled.div`${tw`text-sm ml-0 lg:ml-8 mt-4 mb-2`}`
+const Text2 = styled.div`${tw`text-sm lg:text-lg ml-0 lg:ml-8 mt-2`}`
 
 const Design = ({ color1, color2, default1, default2 }) => {
     const [customImage1, setCustomImage1] = useState(null)

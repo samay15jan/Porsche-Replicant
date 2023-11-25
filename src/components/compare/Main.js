@@ -6,7 +6,8 @@ import tw from 'twin.macro'
 import CompareModels from './section_3/CompareModels'
 import { useSelector } from 'react-redux';
 
-const ButtonContainer = styled.div`${tw`flex justify-between mx-72`}`
+const ButtonContainer = styled.div`${tw`flex justify-between w-screen lg:w-auto lg:mx-72`}`
+
 const Main = ({ toggleOverflow }) => {
     const [reduxData, setReduxData] = useState(false)
     const compareState = useSelector((state) => state.compare)

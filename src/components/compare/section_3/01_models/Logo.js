@@ -7,9 +7,9 @@ import { Close } from '@mui/icons-material'
 const Container = styled.div`${tw`w-[450px]`}`
 const CustomButton = styled(Button)`${tw``}`
 const Image = styled.img`${tw`w-[450px]`}`
-const Text1 = styled.div`${tw`text-2xl font-medium mb-2 justify-center`}`
-const Text2 = styled.div`${tw`text-xl font-bold my-2`}`
-const Text3 = styled.div`${tw`text-sm`}`
+const Text1 = styled.div`${tw`flex text-xl font-medium mb-2 text-center justify-center mx-2`}`
+const Text2 = styled.div`${tw`text-lg font-bold mt-2 mx-2`}`
+const Text3 = styled.div`${tw`text-sm mx-2`}`
 
 const Logo = ({ image, text, transmission, onClick }) => {
     return (

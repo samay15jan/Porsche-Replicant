@@ -37,6 +37,8 @@ const Cards = ({ src_logo, src_image, id, key, toggleMenu, onCardClick }) => {
             id={id}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
+	    onTouchStart={handleMouseEnter}
+            onTouchEnd={handleMouseLeave}
             key={key}
             onClick={handleClick}
         >

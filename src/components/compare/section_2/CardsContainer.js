@@ -4,7 +4,7 @@ import Cards from './Cards'
 import tw from 'twin.macro'
 import styled from 'styled-components/macro'
 
-const Grid = styled.div`${tw`grid grid-cols-3 p-5 bg-slate-100`}`
+const Grid = styled.div`${tw`grid grid-cols-2 lg:grid-cols-3 p-10 lg:p-5 bg-slate-100`}`
 
 const CardsContainer = ({ toggleMenu, onCardClick }) => {
     const SectionData = Data.OverflowMenu[0]

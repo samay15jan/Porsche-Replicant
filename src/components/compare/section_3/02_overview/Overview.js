@@ -5,10 +5,10 @@ import { SpeedSharp, DriveEtaOutlined } from '@mui/icons-material'
 
 const Container = styled.div`${tw`w-screen`}`
 const Heading = styled.div`${tw`flex justify-center text-4xl font-bold p-10`}`
-const Divider = styled.hr`${tw`w-auto border border-slate-200 my-4 mx-72`}`
-const Title = styled.div`${tw`mx-72 mb-2 text-lg`}`
+const Divider = styled.hr`${tw`w-auto border border-slate-200 my-4 mx-10 lg:mx-72`}`
+const Title = styled.div`${tw`mx-10 lg:mx-72 mb-2 text-lg`}`
 const Data = styled.div`${tw`ml-1 font-extrabold`}`
-const Grid = styled.div`${tw`grid grid-cols-2 justify-between mx-72`}`
+const Grid = styled.div`${tw`grid grid-cols-2 justify-between mx-10 lg:mx-72`}`
 const Flex = styled.div`${tw`flex`}`
 
 const Overview = ({ Model1, Model2 }) => {

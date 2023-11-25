@@ -31,7 +31,7 @@ const FilterList = () => {
 
     return (
         <Box>
-	  <Text>Filters</Text>
+	  <Text>Filters: </Text>
             {filters.map((option, index) => (
                 <Container key={index}>
                     <Heading>{option}</Heading>

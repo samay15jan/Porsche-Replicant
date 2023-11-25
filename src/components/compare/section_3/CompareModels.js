@@ -5,7 +5,6 @@ import { useSelector } from 'react-redux';
 import Data from '../../../pages/compare/modelsData.json'
 import Color from '../../../pages/compare/colors.json'
 import ColorsDefault from '../../../pages/compare/colors-default.json'
-import ButtonFixedBar from './01_models/ButtonFixedBar'
 import Container from './01_models/Container'
 import Overview from './02_overview/Overview'
 import Design from './03_design/Design'
@@ -31,8 +30,6 @@ const CompareModels = ({ onClick }) => {
     return (
         <div>
             <Container onClick={onClick} Model1={Model1} Model2={Model2} />
-            <Divider />
-            <ButtonFixedBar />
             <Divider />
             <Overview Model1={Model1} Model2={Model2} />
             <Design color1={color1} color2={color2} default1={DefaultModel1} default2={DefaultModel2} />

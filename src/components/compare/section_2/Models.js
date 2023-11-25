@@ -6,7 +6,7 @@ import tw from 'twin.macro'
 import styled from 'styled-components/macro'
 
 const Container = styled.div`
-    ${tw`bg-slate-100 w-44 mb-2 hover:bg-gray-300`}
+    ${tw`bg-slate-100 mx-14 w-72 lg:w-44 lg:mx-0 mb-2 hover:bg-gray-300`}
 `
 const SubContainer = styled.div`
     ${tw`relative justify-center overflow-hidden border-4 border-slate-100 rounded-3xl bg-gray-200`}
@@ -47,6 +47,8 @@ const Models = ({ src_model, src_name, id }) => {
             id={id}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
+            onTouchStart={handleMouseEnter}
+            onTouchEnd={handleMouseLeave}
             onClick={() => handleClick(id)}
         >
             <SubContainer selected={selected}>

@@ -7,13 +7,12 @@ import { useDispatch } from 'react-redux'
 import { Configuration } from '../../../../features/homepage/homeSlice'
 
 const Container = styled.div`${tw`w-screen bg-gray-100`}`
-const SubContainer = styled.div`${tw`ml-10 relative`}`
-const Title = styled.h1`${tw`font-semibold text-4xl font-bold flex justify-center m-5 pt-20 mb-5`}`
-const Subheading = styled.h3`${tw`font-normal text-lg  flex justify-center mb-10 hover:opacity-20 mx-20`}`
-const Name = styled.h3`${tw`justify-center flex mb-3 text-lg`}`
-const Button = styled.button`${tw`font-normal text-lg flex justify-center bg-black text-white my-1 py-3 mx-10 mb-2 rounded w-96`}`
-const Button2 = styled.button`${tw`w-auto hover:bg-gray-200 ml-10 mt-3 mb-10`}`
-const Grid = styled.div`${tw`grid grid-cols-2 justify-between mx-44`}`
+const SubContainer = styled.div`${tw`ml-0 lg:ml-6 relative`}`
+const Title = styled.h1`${tw`text-center font-semibold text-4xl font-bold flex justify-center m-5 pt-20 mb-5`}`
+const Subheading = styled.h3`${tw`text-center font-normal text-lg flex justify-center mb-20 hover:opacity-20 mx-4 lg:mx-20`}`
+const Name = styled.h3`${tw`text-center justify-center flex mb-3 text-sm lg:text-lg`}`
+const Button = styled.button`${tw`font-normal text-sm lg:text-lg flex justify-center bg-black text-white my-1 py-3 mx-0 lg:mx-10 mb-2 rounded w-48 lg:w-96`}`
+const Grid = styled.div`${tw`grid grid-cols-2 justify-between mx-2 lg:mx-44 mb-20`}`
 
 const Heading = ({ Model1, Model2 }) => {
 
@@ -42,17 +41,15 @@ const Heading = ({ Model1, Model2 }) => {
                 With countless customization options, your dream car can be a reality. Start personalizing your Porsche today.
             </Subheading>
             <Grid>
-                <SubContainer>
                     <Name>{Model1.Name}</Name>
+                    <Name>{Model2.Name}</Name>
+                <SubContainer>
                     <Button onClick={navigateRoute1}><Settings />Configure my Porsche</Button>
                     <Button onClick={navigateRoute3}><Search />Find your Porsche</Button>
-                    <Button2><ArrowForward />View vehicle information</Button2>
                 </SubContainer>
                 <SubContainer>
-                    <Name>{Model2.Name}</Name>
                     <Button onClick={navigateRoute2}><Settings />Configure my Porsche</Button>
                     <Button onClick={navigateRoute3}><Search />Find your Porsche</Button>
-                    <Button2><ArrowForward />View vehicle information</Button2>
                 </SubContainer>
             </Grid>
         </Container>

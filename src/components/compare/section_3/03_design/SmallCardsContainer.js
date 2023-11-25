@@ -3,7 +3,7 @@ import SmallCard from './SmallCard'
 import tw from 'twin.macro'
 import styled from 'styled-components/macro'
 
-const Container = styled.div`${tw`flex space-x-2 overflow-x-auto mx-8`}`
+const Container = styled.div`${tw`flex space-x-2 overflow-x-auto mx-1 lg:mx-8`}`
 const SubContainer = styled.div`${tw`flex-none`}`
 
 const SmallCardsContainer = ({ stock, customImage, onClick }) => {

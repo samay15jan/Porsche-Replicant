@@ -4,9 +4,10 @@ import Main from '../../components/models/Main'
 import Section_7 from '../../components/homepage/section_7/Section_7'
 import Menu from '../../components/models/01_header/overflow_menu/Menu'
 import styled from 'styled-components'
+import tw from 'twin.macro'
 
 const BlurContainer = styled.div`
-  position: relative;
+  ${tw`relative overflow-x-hidden`}
 `;
 
 const models = () => {
