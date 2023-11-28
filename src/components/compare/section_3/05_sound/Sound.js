@@ -3,7 +3,7 @@ import tw from 'twin.macro'
 import styled from 'styled-components/macro'
 
 const Container = styled.div`${tw`w-screen`}`
-const SubContainer = styled.div`${tw`mx-1 lg:mx-0 lg:ml-10 relative`}`
+const SubContainer = styled.div`${tw`mx-1 lg:mx-0 lg:ml-10 relative flex justify-center`}`
 const Heading = styled.div`${tw`flex justify-center text-4xl font-bold p-10 mt-10`}`
 const Text = styled.div`${tw`text-sm mb-4 text-center`}`
 const Image = styled.img`${tw`w-96 lg:w-96 rounded-lg h-32 lg:h-56 mb-5`}`

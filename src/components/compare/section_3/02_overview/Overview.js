@@ -18,8 +18,8 @@ const Overview = ({ Model1, Model2 }) => {
 
             <Title>MSRP</Title>
             <Grid>
-                <Data>{Model1.MSRP}</Data>
-                <Data>{Model2.MSRP}</Data>
+                <Data>$ {parseInt(Model1.MSRP).toLocaleString()}</Data>
+                <Data>$ {parseInt(Model2.MSRP).toLocaleString()}</Data>
             </Grid>
             <Divider />
 

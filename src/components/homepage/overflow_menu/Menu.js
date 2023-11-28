@@ -28,11 +28,9 @@ const Menu = ({ onClick }) => {
     const navigate = useNavigate();
 
     const navigateRoute1 = () => {
-	window.scrollTo({ top: 0, behavior: 'smooth' });
         navigate("/models");
     };
     const navigateRoute2 = () => {
-	window.scrollTo({ top: 0, behavior: 'smooth' });
         navigate("/compare");
     };
 

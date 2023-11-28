@@ -27,7 +27,7 @@ const Configuration = () => {
     return (
         <Container>
             <BlurContainer className={isMenuOpen ? 'h-screen w-screen blur-2xl' : ''}>
-                <Header />
+                <Header onClick={openMenu} />
                 <Main />
                 <Section_7 />
             </BlurContainer>

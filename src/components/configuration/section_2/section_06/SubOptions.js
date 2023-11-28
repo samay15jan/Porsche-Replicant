@@ -3,8 +3,8 @@ import tw from 'twin.macro'
 import styled from 'styled-components/macro'
 import Checkbox from '@mui/material/Checkbox';
 
-const Container = styled.div`${tw`flex my-1`}`
-const SubContainer = styled.div`${tw`grid grid-rows-2`}`
+const Container = styled.div`${tw`flex my-1 ml-5 lg:ml-0`}`
+const SubContainer = styled.div`${tw`ml-5 lg:ml-0 grid grid-rows-2`}`
 const Text = styled.div`${tw`text-sm font-medium`}`
 const Prices = styled.div`${tw`text-sm font-medium text-slate-500`}`
 

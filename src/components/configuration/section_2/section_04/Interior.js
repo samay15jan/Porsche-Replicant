@@ -12,11 +12,11 @@ const SubContainer = styled.div`${tw`relative`}`
 const Text = styled.div`${tw`mx-2 text-sm font-medium`}`
 const Price = styled.div`${tw`mx-2 text-sm font-medium text-slate-500`}`
 const Color1 = styled.div`
-  ${tw`w-28 h-10`}
+  ${tw`w-44 lg:w-28 h-12 ml-2`}
   background-color: rgb(0, 0, 0); color: white;
 `
 const Color2 = styled.div`
-  ${tw`w-28 h-10`}
+  ${tw`w-44 lg:w-28 h-12 ml-2 `}
   background-image: linear-gradient(rgb(0, 0, 0) 50%, rgb(120, 47, 47) 50%);
 `
 

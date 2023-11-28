@@ -7,7 +7,11 @@ import { useSelector } from 'react-redux';
 import ColorsDefault from '../../../pages/compare/colors-default.json'
 import Color from '../../../pages/compare/colors.json'
 
-const Container = styled.div`${tw`w-screen `}`
+const Container = styled.div`${tw`w-screen`}
+  top: 0;
+  left: 0;
+  overflow: hidden;
+`
 
 const Design = ({ ID }) => {
 

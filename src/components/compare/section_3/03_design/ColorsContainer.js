@@ -3,7 +3,7 @@ import Color from './Color'
 import tw from 'twin.macro'
 import styled from 'styled-components/macro'
 
-const Container = styled.div`${tw`grid grid-cols-2 lg:flex space-x-0 lg:space-x-2 mt-4 overflow-x-hidden mx-0 lg:mx-1 lg:mx-11`}`
+const Container = styled.div`${tw`grid grid-cols-2 lg:flex space-x-0 lg:space-x-1 mt-4 overflow-x-hidden mx-0 lg:mx-11`}`
 const SubContainer = styled.div`${tw`flex-none`}`
 
 const ColorsContainer = ({ color, onClick }) => {

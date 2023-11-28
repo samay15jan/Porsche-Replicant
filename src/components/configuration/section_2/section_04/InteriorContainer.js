@@ -7,7 +7,7 @@ import StockImage from '../../../../pages/configuration/stock.jpg'
 import { Button } from '@mui/material'
 import { Add, Remove } from '@mui/icons-material'
 
-const Container = styled.div`${tw`mt-4 mr-10 w-[294px] bg-white rounded-xl p-2`}`
+const Container = styled.div`${tw`mt-4 mr-10 w-screen lg:w-[294px] bg-white rounded-xl p-2`}`
 const Text1 = styled.div`${tw`text-xl font-bold my-2 `}`
 const Text2 = styled.div`${tw`mx-2 text-sm font-medium`}`
 const Flex = styled.div`${tw`flex justify-between mb-2`}`

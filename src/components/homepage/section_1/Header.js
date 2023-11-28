@@ -34,6 +34,7 @@ const Header = ({ onClick }) => {
   // Redirecting to configuration page page
   const handleButtonClick = () => {
     dispatch(Configuration("003"))
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     navigate("/models");
   };
 

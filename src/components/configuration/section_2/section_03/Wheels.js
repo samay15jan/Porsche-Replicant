@@ -13,7 +13,7 @@ const Image = styled.img`${tw`w-full p-1 rounded-xl`}`
 const Text = styled.div`${tw`mx-2 text-sm font-medium`}`
 const Price = styled.div`${tw`mx-2 text-sm font-medium text-slate-500`}`
 const FloatingText = styled.div`
-  ${tw`text-sm font-medium absolute justify-center w-full text-slate-200 ml-2`}
+  ${tw`text-sm font-medium absolute justify-center w-full text-slate-200 ml-10 mt-2 lg:mt-0 lg:ml-2`}
   top: 35%;
   transform: translateY(-50%);
 `

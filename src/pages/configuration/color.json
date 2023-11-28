@@ -1,0 +1,58 @@
+{
+    "Colors": [
+        {
+            "ID": "001",
+            "Images": {
+                "Grey": "/resources/configuration/718/1.png",
+                "Black": "/resources/configuration/718/2.png",
+                "Yellow": "/resources/configuration/718/3.png",
+                "Blue1": "/resources/configuration/718/4.png"
+            }
+        },
+        {
+            "ID": "002",
+            "Images": {
+                "Yellow": "/resources/configuration/911/1.png",
+                "Green": "/resources/configuration/911/2.png",
+                "Red": "/resources/configuration/911/3.png",
+                "White": "/resources/configuration/911/4.png"
+            }
+        },
+        {
+            "ID": "003",
+            "Images": {
+                "White": "/resources/configuration/taycan/1.png",
+                "Berry": "/resources/configuration/taycan/2.png",
+                "Blue2": "/resources/configuration/taycan/3.png",
+                "Black": "/resources/configuration/taycan/4.png"
+            }
+        },
+        {
+            "ID": "004",
+            "Images": {
+                "Red": "/resources/configuration/panamera/1.png",
+                "Blue3": "/resources/configuration/panamera/2.png",
+                "White": "/resources/configuration/panamera/3.png",
+                "Black": "/resources/configuration/panamera/4.png"
+            }
+        },
+        {
+            "ID": "005",
+            "Images": {
+                "Silver": "/resources/configuration/macan/1.png",
+                "Blue1": "/resources/configuration/macan/2.png",
+                "Black": "/resources/configuration/macan/3.png",
+                "Orange": "/resources/configuration/macan/4.png"
+            }
+        },
+        {
+            "ID": "006",
+            "Images": {
+                "Grey": "/resources/configuration/cayenne/1.png",
+                "Blue4": "/resources/configuration/cayenne/2.png",
+                "White": "/resources/configuration/cayenne/3.png",
+                "Black": "/resources/configuration/cayenne/4.png"
+            }
+        }
+    ]
+}
